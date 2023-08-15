@@ -4,7 +4,7 @@ import ListHeader from './components/ListHeader';
 function App() {
 	return (
 		<div className='app'>
-			<ListHeader listName={'Holiday'} />
+			<h1>Hello from ToDo-App</h1>
 		</div>
 	);
 }

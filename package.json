@@ -4,7 +4,7 @@
 	"description": "",
 	"scripts": {
 		"build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
-		"server": "node ./server/server.js",
+		"server": "nodemon ./server/server.js",
 		"client": "cd client && npm start"
 	},
 	"repository": {
@@ -16,6 +16,10 @@
 	},
 	"homepage": "https://github.com/PiotrRomanczuk/ToDoList#readme",
 	"dependencies": {
-		"if-env": "^1.0.4"
+		"if-env": "^1.0.4",
+		"nodemon": "^3.0.1"
+	},
+	"devDependencies": {
+		"dotenv": "^16.3.1"
 	}
 }
