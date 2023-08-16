@@ -5,6 +5,7 @@
 	"scripts": {
 		"build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
 		"server": "nodemon ./server/server.js",
+		"serverTest": "cd server && ",
 		"client": "cd client && npm start"
 	},
 	"repository": {
@@ -16,6 +17,8 @@
 	},
 	"homepage": "https://github.com/PiotrRomanczuk/ToDoList#readme",
 	"dependencies": {
+		"chai": "^4.3.7",
+		"chai-http": "^4.4.0",
 		"if-env": "^1.0.4",
 		"nodemon": "^3.0.1"
 	},

@@ -8,13 +8,12 @@ const app = express();
 const PORT = 8080;
 
 const mongoose = require('mongoose');
-const connectionDB = require('./database/connectionDB');
 
 // Access environment variable
 const uri = process.env.MONGODB_URI;
 
 const Note = require('./models/noteModel');
-const createNote = require('./controllers/createNote');
+const noteRoutes = require('./routes/noteRoutes');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: '30mb', extended: true }));
@@ -25,7 +24,7 @@ app.get('/', (req, res) => {
 	res.send('Hello from the server');
 });
 
-app.post('/notes', createNote);
+app.post('/notes', noteRoutes);
 
 const startServer = async () => {
 	try {
@@ -44,3 +43,5 @@ const startServer = async () => {
 };
 
 startServer();
+
+module.exports = { app, startServer };
