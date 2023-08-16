@@ -6,10 +6,7 @@ const noteSchema = new mongoose.Schema({
 		required: true,
 	},
 	description: String,
-	timeAdded: {
-		type: Date,
-		required: true,
-	},
+	timeAdded: Date,
 	timeUpdated: Date,
 });
 
