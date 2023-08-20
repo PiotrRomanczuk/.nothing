@@ -1,4 +1,5 @@
 const Note = require('../models/noteModel');
+const shortid = require('shortid');
 
 // Create a new note
 const createNote = async (req, res) => {
@@ -6,6 +7,7 @@ const createNote = async (req, res) => {
 		const { title, description } = req.body;
 
 		const newNote = new Note({
+			noteId: shortid.generate(),
 			title,
 			description,
 		});

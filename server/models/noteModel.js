@@ -1,11 +1,13 @@
 const mongoose = require('mongoose');
+const shortid = require('shortid');
 
 const noteSchema = new mongoose.Schema({
-	title: {
+	_id: {
 		type: String,
-		required: true,
+		default: shortid.generate,
 	},
-	description: String,
+	title: { type: String, required: true },
+	description: { type: String, required: true },
 	timeAdded: Date,
 	timeUpdated: Date,
 });
