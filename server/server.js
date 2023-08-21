@@ -12,20 +12,29 @@ const loggerConfig = require('./config/winstonLogger');
 const mongoose = require('mongoose');
 const uri = process.env.MONGODB_URI;
 
-const noteRoutes = require('./routes/noteRoutes');
+const notesRouter = require('./routes/notesRoutes');
+
+const {
+	createNote,
+	getAllNotes,
+	getNoteById,
+	updateNoteById,
+	deleteNoteById,
+} = require('./controllers/notesCRUD');
 
 const PORT = 8080;
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: '30mb', extended: true }));
 app.use(cors(corsOptions));
 app.use(expressWinston.logger(loggerConfig));
 
+app.use('/notes', notesRouter);
+
 app.get('/', (req, res) => {
 	console.log('Hello in server!');
 	res.send('Hello from the server');
 });
-
-app.all('/notes', noteRoutes);
 
 const startServer = async () => {
 	try {

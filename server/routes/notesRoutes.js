@@ -7,13 +7,15 @@ const {
 	getNoteById,
 	updateNoteById,
 	deleteNoteById,
+	deleteAllNotes,
 } = require('../controllers/notesCRUD');
 
 // Define routes for notes
-router.post('/notes', createNote);
-router.get('/notes', getAllNotes);
-router.get('/notes/:noteId', getNoteById);
-router.put('/notes/:noteId', updateNoteById);
-router.delete('/notes/:noteId', deleteNoteById);
+router.post('/', createNote);
+router.get('/', getAllNotes);
+router.get('/:noteId/', getNoteById);
+router.put('/:noteId/', updateNoteById);
+router.delete('/:noteId/', deleteNoteById);
+router.delete('/', deleteAllNotes);
 
 module.exports = router;

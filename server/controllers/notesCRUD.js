@@ -3,11 +3,21 @@ const shortid = require('shortid');
 
 // Create a new note
 const createNote = async (req, res) => {
+	console.log('Creating new note');
 	try {
 		const { title, description } = req.body;
 
+		// Find the last used noteId
+		const lastNote = await Note.findOne({}, {}, { sort: { noteId: -1 } });
+
+		let newNoteId = 1;
+
+		if (lastNote) {
+			newNoteId = lastNote.noteId + 1;
+		}
+
 		const newNote = new Note({
-			noteId: shortid.generate(),
+			_id: newNoteId,
 			title,
 			description,
 		});
@@ -23,6 +33,7 @@ const createNote = async (req, res) => {
 
 // Get all notes
 const getAllNotes = async (req, res) => {
+	console.log('Getting all notes');
 	try {
 		const notes = await Note.find();
 		res.status(200).json(notes);
@@ -34,7 +45,9 @@ const getAllNotes = async (req, res) => {
 
 // Get a single note by ID
 const getNoteById = async (req, res) => {
+	console.log('Updating notes');
 	const { noteId } = req.params;
+	console.log(req.params);
 	try {
 		const note = await Note.findById(noteId);
 		if (!note) {
@@ -80,7 +93,24 @@ const deleteNoteById = async (req, res) => {
 			return res.status(404).json({ message: 'Note not found.' });
 		}
 
-		res.status(204).json();
+		return res
+			.status(200)
+			.json({ message: 'Note deleted successfully.', deletedNote });
+	} catch (error) {
+		console.error(error);
+		res.status(500).json({ message: 'An error occurred.' });
+	}
+};
+
+const deleteAllNotes = async (req, res) => {
+	try {
+		const result = await Note.deleteMany({});
+
+		if (result.deletedCount === 0) {
+			return res.status(404).json({ message: 'No notes found to delete.' });
+		}
+
+		return res.status(200).json({ message: 'All notes deleted successfully.' });
 	} catch (error) {
 		console.error(error);
 		res.status(500).json({ message: 'An error occurred.' });
@@ -93,4 +123,5 @@ module.exports = {
 	getNoteById,
 	updateNoteById,
 	deleteNoteById,
+	deleteAllNotes,
 };

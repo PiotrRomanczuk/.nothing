@@ -22,3 +22,1107 @@
   message: 'HTTP GET /notes',
   timestamp: '2023-08-21T08:34:32.706Z'
 }
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '22b75509-badd-4b61-b668-6cdd89c2870a',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 150
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes',
+  timestamp: '2023-08-21T12:07:22.058Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/EEqz21g77A',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'aa1cb297-0b05-4ef2-8b13-3c7b485d230d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/EEqz21g77A',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/EEqz21g77A',
+  timestamp: '2023-08-21T12:11:27.995Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/?id=NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '407a7599-55e7-43fd-a4dc-abc88d5ea9a7',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/?id=NCS8LNu-J1',
+      query: { id: 'NCS8LNu-J1' }
+    },
+    res: { statusCode: 200 },
+    responseTime: 153
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/?id=NCS8LNu-J1',
+  timestamp: '2023-08-21T12:11:54.169Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'dc0e766f-b22b-4bdd-b2a7-cd6005c45315',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/NCS8LNu-J1',
+  timestamp: '2023-08-21T12:13:13.104Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '621276d9-f8db-4651-b906-0ca5763e9761',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/NCS8LNu-J1',
+  timestamp: '2023-08-21T12:14:34.904Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/123',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '63dcdcee-56aa-4e20-bd7c-567fba954513',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/123',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/123',
+  timestamp: '2023-08-21T12:16:31.588Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '8dfa49b9-8aef-43c7-b3c7-305c297ae1ad',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 167
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes',
+  timestamp: '2023-08-21T12:17:57.368Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9a0524a7-f635-401d-a918-ff117f4f35c4',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '33'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 165
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-21T12:18:30.084Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f9aa35b2-e092-4612-a8bb-1dbd22c74284',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 169
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes',
+  timestamp: '2023-08-21T12:18:52.816Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/123',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '370b8a6d-fb83-4026-9872-f97c3272de96',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/123',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/123',
+  timestamp: '2023-08-21T12:19:51.685Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/123',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '89d7a4f8-2ca2-4b21-859e-6e97a3606324',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/123',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/123',
+  timestamp: '2023-08-21T12:19:53.291Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/123',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'c7f0ca19-912e-49e5-ad23-46625c8ca384',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/123',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/123',
+  timestamp: '2023-08-21T12:19:53.916Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/123',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ac67f878-3380-41e8-9de7-651f634cf90a',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/123',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/123',
+  timestamp: '2023-08-21T12:19:54.466Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/123/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ac6817dd-8de3-44a3-8c29-f30f97cc5231',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/123/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/123/',
+  timestamp: '2023-08-21T12:19:58.308Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/all/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '641864f7-9dc2-4057-a0a1-165dbaa53bfe',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/all/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/all/',
+  timestamp: '2023-08-21T12:20:13.238Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/all/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ee0c06ce-a066-4d2b-84cc-f0b6a5dc7d5a',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/all/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/all/',
+  timestamp: '2023-08-21T12:20:17.506Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/all/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'bd7cf539-a150-4fdb-a147-61bbf194b1d5',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/all/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/all/',
+  timestamp: '2023-08-21T12:20:18.326Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/all/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ace120e5-f330-4caa-843b-a148f38a81b8',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/all/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/all/',
+  timestamp: '2023-08-21T12:20:19.165Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/all/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'dee159aa-a50b-4704-88ec-1b08d2233c4a',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/all/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 265
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/all/',
+  timestamp: '2023-08-21T12:21:41.268Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0658615c-b98b-41be-980d-86a20cee7172',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 157
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/NCS8LNu-J1',
+  timestamp: '2023-08-21T12:22:09.581Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '19c8de9f-a685-48b1-b5d8-64744cb55ea2',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/NCS8LNu-J1',
+  timestamp: '2023-08-21T12:23:57.365Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/all',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '8f6eafe8-a779-4e48-9ccd-c0de3915e01f',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/all',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/all',
+  timestamp: '2023-08-21T12:26:37.475Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '8f5553da-f229-4384-9b28-af2981dfa729',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 274
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/NCS8LNu-J1',
+  timestamp: '2023-08-21T12:28:55.878Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'bb9db3d4-f082-4119-8ac1-fdaea90ad569',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '26'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 144
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP PUT /notes/NCS8LNu-J1',
+  timestamp: '2023-08-21T12:29:36.827Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '041d5694-b34e-4571-82c8-9e5c71216ba9',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 201
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/NCS8LNu-J1',
+  timestamp: '2023-08-21T12:29:42.533Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '14c8509d-334e-4705-a46f-b41e7d3ac96a',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 157
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/NCS8LNu-J1',
+  timestamp: '2023-08-21T12:29:54.191Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd6c9b01a-a08a-42f2-9783-5182599b696c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 152
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-21T12:30:02.466Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/4b2xNjduz6',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f67c259f-8337-4a52-a6c5-01f543a9f525',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/4b2xNjduz6',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 545
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/4b2xNjduz6',
+  timestamp: '2023-08-21T12:30:10.517Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/4b2xNjduz6',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a9108d3e-b94a-4043-93de-2e5fd02f6ea1',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/4b2xNjduz6',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 198
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/4b2xNjduz6',
+  timestamp: '2023-08-21T12:30:36.012Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/-Rq86SMpGk',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'abab4e90-c751-495d-9d9c-ffc0828ac65d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/-Rq86SMpGk',
+      query: {}
+    },
+    res: { statusCode: 204 },
+    responseTime: 725
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/-Rq86SMpGk',
+  timestamp: '2023-08-21T12:30:46.974Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '91515350-cd5e-4c6f-adac-c66943b91575',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 162
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-21T12:31:41.608Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/EEqz21g77A',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '840ece50-4afe-4ce0-844b-b6748958bd13',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/EEqz21g77A',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 160
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/EEqz21g77A',
+  timestamp: '2023-08-21T12:31:49.938Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/6QQyqdm4Xs',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '4a5d9458-c266-4717-86cb-80eadb019043',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/6QQyqdm4Xs',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 234
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/6QQyqdm4Xs',
+  timestamp: '2023-08-21T12:32:05.666Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '28655c46-a861-4670-8e99-d532b726dce7',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 321
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-21T12:34:35.249Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '5fb211b1-a4dd-405d-8aa8-3fad6bed7ba1',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 359
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-21T12:34:43.522Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '84dab906-c10b-4539-9db6-b6e8d25917b8',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 323
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-21T12:35:09.075Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '3e44b0ea-3878-49f0-a798-26ec0b5ef919',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 351
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-21T12:35:16.739Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a9bf4a69-b60d-4833-a042-7b18ed0ae520',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 139
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-21T12:35:26.084Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/6QQyqdm4Xs',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'eebfb5ff-91b6-414a-b90a-f57dc28bcd15',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/6QQyqdm4Xs',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 144
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/6QQyqdm4Xs',
+  timestamp: '2023-08-21T12:35:36.175Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/fn0pFZ8wQ',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'cc4400ca-d7fa-4fe1-8dd0-cf54ab12e2fe',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/fn0pFZ8wQ',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 216
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/fn0pFZ8wQ',
+  timestamp: '2023-08-21T12:35:40.502Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd61bf8bf-c228-480b-8c59-e00443c803f1',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 154
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-21T12:37:32.484Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '80414223-de7a-41f1-bf50-9a9382ae055b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 4
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-21T12:37:39.559Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '42ee66da-0d57-42c1-a004-98567572b625',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 562
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-21T12:37:58.090Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '2f629d9b-f587-438b-9be2-32d0b18bcf86',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 198
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-21T12:38:03.115Z'
+}
