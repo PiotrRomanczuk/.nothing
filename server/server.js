@@ -14,14 +14,6 @@ const uri = process.env.MONGODB_URI;
 
 const notesRouter = require('./routes/notesRoutes');
 
-const {
-	createNote,
-	getAllNotes,
-	getNoteById,
-	updateNoteById,
-	deleteNoteById,
-} = require('./controllers/notesCRUD');
-
 const PORT = 8080;
 
 app.use(express.urlencoded({ extended: true }));
