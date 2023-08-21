@@ -1,0 +1,24 @@
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '1efc6be6-d799-42b6-a6d1-20bf1eb89edb',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 179
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes',
+  timestamp: '2023-08-21T08:34:32.706Z'
+}
