@@ -2,10 +2,8 @@ export default async function FetchData() {
 	const url = 'http://localhost:8080/notes';
 
 	const response = await fetch(url);
-	console.log(response);
+	// console.log(response);
 	const data = await response.json();
-
-	console.log(data);
 
 	return data;
 }

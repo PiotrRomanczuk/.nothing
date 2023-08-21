@@ -1,0 +1,72 @@
+{"level":"info","message":"HTTP GET /notes","meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","connection":"keep-alive","host":"localhost:8080","postman-token":"84200480-71e2-499b-a1a6-7caf8028f391","user-agent":"PostmanRuntime/7.32.3"},"httpVersion":"1.1","method":"GET","originalUrl":"/notes","query":{},"url":"/notes"},"res":{"statusCode":200},"responseTime":153}}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd25c75f7-0cb3-40cc-8962-639f3f8f8822',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 154
+  },
+  level: 'info',
+  message: 'HTTP GET /notes'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '021f3dec-5168-4a8f-912f-36e49bff3b25',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 268
+  },
+  level: 'info',
+  message: 'HTTP GET /notes',
+  timestamp: '2023-08-21T08:14:14.183Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ced58d36-009c-4580-903d-4b0aa55f404e',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 150
+  },
+  level: 'info',
+  message: 'HTTP GET /notes',
+  timestamp: '2023-08-21T08:14:27.427Z'
+}
