@@ -1,34 +1,40 @@
+const User = require('../models/userModel');
+const bcrypt = require('bcrypt');
+const {
+	validatePassword,
+	validateEmail,
+} = require('../utils/email&passValidate');
+
 const register = async (req, res) => {
-	// Our register logic starts here
 	try {
-		// Get user input
 		const { first_name, last_name, email, password } = req.body;
 
-		// Validate user input
 		if (!(email && password && first_name && last_name)) {
-			res.status(400).send('All input is required');
+			return res.status(400).send('All input is required');
 		}
 
-		// check if user already exist
-		// Validate if user exist in our database
+		if (!validateEmail(email)) {
+			return res.status(400).send('Invalid email address');
+		}
+
+		if (!validatePassword(password)) {
+			return res.status(400).send('Invalid password format');
+		}
 		const oldUser = await User.findOne({ email });
 
 		if (oldUser) {
 			return res.status(409).send('User Already Exist. Please Login');
 		}
 
-		//Encrypt user password
 		encryptedPassword = await bcrypt.hash(password, 10);
 
-		// Create user in our database
 		const user = await User.create({
 			first_name,
 			last_name,
-			email: email.toLowerCase(), // sanitize: convert email to lowercase
+			email: email.toLowerCase(),
 			password: encryptedPassword,
 		});
 
-		// Create token
 		const token = jwt.sign(
 			{ user_id: user._id, email },
 			process.env.TOKEN_KEY,
@@ -36,13 +42,13 @@ const register = async (req, res) => {
 				expiresIn: '2h',
 			}
 		);
-		// save user token
+
 		user.token = token;
 
-		// return new user
 		res.status(201).json(user);
 	} catch (err) {
 		console.log(err);
 	}
-	// Our register logic ends here
 };
+
+module.exports = register;

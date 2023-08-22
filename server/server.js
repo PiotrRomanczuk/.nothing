@@ -9,6 +9,8 @@ const corsOptions = require('./config/corsOptions');
 const expressWinston = require('express-winston');
 const loggerConfig = require('./config/winstonLogger');
 
+const auth = require('./middleware/auth');
+
 const mongoose = require('mongoose');
 const uri = process.env.MONGODB_URI;
 
@@ -22,6 +24,10 @@ app.use(cors(corsOptions));
 app.use(expressWinston.logger(loggerConfig));
 
 app.use('/notes', notesRouter);
+
+app.post('/welcome', auth, (req, res) => {
+	res.status(200).send('Welcome 🙌 ');
+});
 
 app.get('/', (req, res) => {
 	console.log('Hello in server!');
