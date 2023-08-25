@@ -15,6 +15,7 @@ const mongoose = require('mongoose');
 const uri = process.env.MONGODB_URI;
 
 const notesRouter = require('./routes/notesRoutes');
+const authRouter = require('./routes/authRoutes');
 
 const PORT = 8080;
 
@@ -23,7 +24,8 @@ app.use(express.json({ limit: '30mb', extended: true }));
 app.use(cors(corsOptions));
 app.use(expressWinston.logger(loggerConfig));
 
-app.use('/notes', notesRouter);
+app.use('/notes/', notesRouter);
+app.use('/user/', authRouter);
 
 app.post('/welcome', auth, (req, res) => {
 	res.status(200).send('Welcome 🙌 ');

@@ -1,5 +1,6 @@
-const Note = require('../models/noteModel');
-const shortid = require('shortid');
+const Note = require('../../models/noteModel');
+
+// const findLastAndGenId = require('../../utils/findLastAndGenId');
 
 // Create a new note
 const createNote = async (req, res) => {
@@ -7,14 +8,19 @@ const createNote = async (req, res) => {
 	try {
 		const { title, description } = req.body;
 
-		// Find the last used noteId
-		const lastNote = await Note.findOne({}, {}, { sort: { noteId: -1 } });
+		const lastNote = await Note.findOne().sort({ _id: 1 });
 
-		let newNoteId = 1;
+		let newNoteId;
 
-		if (lastNote) {
-			newNoteId = lastNote.noteId + 1;
-		}
+		const checkLastId = () => {
+			if (lastNote) {
+				newNoteId = +lastNote._id + 1;
+				checkLastId();
+				return newNoteId;
+			} else {
+				newNoteId = 1;
+			}
+		};
 
 		const newNote = new Note({
 			_id: newNoteId,

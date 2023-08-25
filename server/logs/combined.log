@@ -1,0 +1,2702 @@
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '92212dec-787d-4015-a43f-2c358e71979f',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '34'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 1136
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T11:28:06.716Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ccfec5c3-8989-4811-86c4-797b25cfaac4',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 135
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T11:28:27.654Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e2bdeae7-6b04-42d6-a100-41e657dc86a1',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 317
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T12:35:27.521Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd0dbd021-7db3-41b2-88e7-ed64c13aa3e6',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 133
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T12:35:40.495Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e660fb3f-f5b5-4183-b076-d47c5dfac799',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 201
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T12:35:53.849Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '8dea96da-acb6-48ee-bc18-4e5103a35543',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 192
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T12:35:56.988Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '1bfdd658-ea73-4425-898a-ec1444be0c5d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 557
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T12:36:01.861Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'efb7859e-1e1e-402a-9df8-56bb617e9206',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 135
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T12:36:05.048Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6bb3f0e2-9841-42ce-9001-6c8e48900452',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 272
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T12:36:10.813Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'bae13f3b-c0bd-4424-a16a-6bef9d1511da',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 289
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T12:36:15.353Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '820a24b5-f4e2-4f2b-8e96-b8c1cc87b4f6',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 132
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T12:36:18.754Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '2ade946e-f6c7-4b25-ad90-51b24ff886c0',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 307
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T12:54:56.257Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f3b64a43-f348-4750-9006-c94b69fd9324',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 325
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T12:55:34.419Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ba6c5f13-e3fd-44e6-8dc5-9e466425ffe5',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 288
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T12:55:54.468Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '4d0680fe-6513-4c29-85d5-6f7ed6e85b06',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:01:59.032Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '28ca6db0-c441-4041-9eaf-03b71364d789',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 165
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:02:18.373Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '7f27cc48-0551-4f39-96f3-a845c53bb49d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 150
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:03:02.770Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'c71f027e-552c-4305-9b95-6dced0d25eb0',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 281
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:10:17.433Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '94f11913-5c5c-42d0-a692-d82b7c7ff5a0',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 356
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:10:22.357Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'aad0bf07-e127-42da-b6fa-038a09c6ef4f',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 272
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:10:28.346Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '40f7c86b-6fa0-457f-bcd9-e1f54c9dc7bc',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 273
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:10:34.419Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '16070761-88eb-44be-af3e-82ad55bf47e6',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 1047
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:11:53.481Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'fa217462-8a1b-451d-870e-d63d9f26d436',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 332
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:11:56.211Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '19e255a3-0199-4cbb-89e3-743e0e1c815b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 151
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T13:14:12.229Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '90d92990-87a7-459a-af33-ca34f47f742d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 289
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:14:15.574Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '1327f1f6-f60b-458e-98ef-a24b6848fa9c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 270
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:14:16.913Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '5c8ab59d-d24c-4ea4-b20d-795191bc4a54',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 274
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:14:18.819Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ca0b1bc4-20f2-4766-9208-ea9f14394621',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 147
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T13:15:38.186Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '475d925b-e73f-426b-86ed-d77f5333d6bc',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 131
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T13:15:39.440Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd5401f43-e8c1-4c3d-9681-31da9a82ac37',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 287
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:15:44.040Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'db226af4-dfd2-4009-a6d5-464d74881bbd',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 191
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T13:15:47.283Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e783973c-6a7b-4318-a9b1-dc6b1e98b9cf',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 143
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:15:49.803Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ae3e6579-7982-4d7a-8083-221e972910d4',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 130
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:15:50.818Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '86c5df70-10b4-4895-b200-b7f1141b68b3',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 217
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T13:15:55.147Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e36fe26f-0d99-4e52-a843-66629679006d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 201
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:15:57.897Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '1bf9223a-8e47-4c55-994b-71d339a74eb7',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 372
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:17:03.312Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '4f308ecb-6bcc-461c-9d45-c9c9fcf000cc',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 356
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:17:05.142Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '35a14781-ffdc-4df9-9df9-85305fa368c8',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 299
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:17:21.676Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'af778d8f-9bf1-44b9-9ae1-318f5b5b455d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 274
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:17:23.236Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6c4119f0-6ac3-4258-afce-18d39d80b95c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 140
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T13:17:42.150Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '483e70ea-1b17-4809-8f30-f800e3d34c27',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 207
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T13:17:52.586Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '1f30f226-16cd-4b69-8854-7b53bb607581',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 264
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:17:56.105Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0e95f596-6c80-4117-95b3-c3fe7dbe535e',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 274
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:17:57.645Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'b483c207-165f-49fe-9069-1f1fef6e2983',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 263
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:17:59.274Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a3b2beae-5392-42cd-902b-765a23211a90',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 345
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:20:25.689Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'fb992857-83d4-459c-875e-d9bb0fbf1e7d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 305
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:20:35.812Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '807f926c-a420-4ec6-9ac1-6ae293a71208',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 298
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:22:14.509Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '34918578-349d-43ad-b356-989b0419089b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 344
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:22:18.011Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e260918e-cd85-499e-9d11-73b71ab75fc2',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 271
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T13:22:22.349Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ec193ff2-8949-463e-b3d1-83ecb283d872',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 1325
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T14:49:14.906Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e2b80f3e-a2bd-4a63-b48b-4587c74d45f3',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 184
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T14:49:21.731Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '96b79403-2be3-4fd9-9961-0a39026bbd48',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 189
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T14:49:36.511Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6240501a-5905-4814-87f6-eeb910247fe4',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 437
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T14:50:00.813Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a2d5c460-bc2c-43f9-b6db-1d9765b92803',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 365
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T14:50:02.230Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6d86d614-38a3-4a84-9b1c-69c46afafa34',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 267
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T14:50:09.412Z'
+}
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        'sec-purpose': 'prefetch;prerender',
+        purpose: 'prefetch',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7',
+        'if-none-match': 'W/"493-18a1c916e8e"',
+        'if-modified-since': 'Tue, 22 Aug 2023 09:26:47 GMT'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 7
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /',
+  timestamp: '2023-08-25T14:51:58.708Z'
+}
+{
+  meta: {
+    req: {
+      url: '/users/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/users/login',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 5
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /users/login',
+  timestamp: '2023-08-25T14:52:05.807Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 5
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user/login',
+  timestamp: '2023-08-25T14:52:15.748Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user/login',
+  timestamp: '2023-08-25T14:52:54.354Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 4
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user/login',
+  timestamp: '2023-08-25T14:53:15.520Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user/login',
+  timestamp: '2023-08-25T14:53:19.402Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'cache-control': 'max-age=0',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-mobile': '?0',
+        'sec-ch-ua-platform': '"macOS"',
+        'upgrade-insecure-requests': '1',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'sec-fetch-dest': 'document',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 8
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user/login',
+  timestamp: '2023-08-25T14:53:32.316Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd35696a8-0eda-4ff9-8670-8a7ec32a427d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 320
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T14:55:25.300Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9649058a-a2c4-420c-9ec8-6d7e2786a498',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 421
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T14:56:03.075Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'cca90184-6c9d-414d-9aa3-3d72c5dc5885',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 188
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T14:56:44.588Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'c796fba9-d1c1-4074-a7f8-d0688fac8317',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 147
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T14:57:05.866Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'de882053-a6e6-45d2-a41a-b9f2cd5b1b49',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '27'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/notes',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 336
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /notes',
+  timestamp: '2023-08-25T14:57:41.329Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'c3d0193e-dd97-465f-895c-3788b70389a5',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 155
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/',
+  timestamp: '2023-08-25T14:57:41.522Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/all',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e6f7f188-bfa8-423d-8d50-8d1d2166e65d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '13'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/notes/all',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 133
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /notes/all',
+  timestamp: '2023-08-25T14:57:41.668Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/NCS8LNu-J1',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'edef4087-2594-4ac8-9986-2593e8a81c39',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '26'
+      },
+      method: 'PUT',
+      httpVersion: '1.1',
+      originalUrl: '/notes/NCS8LNu-J1',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 170
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP PUT /notes/NCS8LNu-J1',
+  timestamp: '2023-08-25T14:57:41.851Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/fn0pFZ8wQ',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '3ea556d3-57f1-451f-96a2-994be71d5bf9',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/fn0pFZ8wQ',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 168
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/fn0pFZ8wQ',
+  timestamp: '2023-08-25T14:57:42.032Z'
+}
+{
+  meta: {
+    req: {
+      url: '/notes/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '291e3621-4fa4-40f9-be8f-663d6c7ffce9',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'DELETE',
+      httpVersion: '1.1',
+      originalUrl: '/notes/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 203
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP DELETE /notes/',
+  timestamp: '2023-08-25T14:57:42.247Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '5403dfa7-3869-4935-9ffe-b7a4f8fe7c4a',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/',
+  timestamp: '2023-08-25T14:58:24.692Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '98412b18-f3ff-4f22-83d0-a4808a4e1b91',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-25T14:58:37.848Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'c450dcbe-53be-4c3b-bdfc-92eb82218467',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-25T14:59:55.610Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'eaf0dc38-9b2b-4a50-aa76-9282f015ab5c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 4
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user/register',
+  timestamp: '2023-08-25T15:00:29.190Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f9efa32a-3586-4109-8f66-f4f1198ba51b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 5
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:01:04.314Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '226be95e-86da-41fd-9ca8-5a297c9a6dd2',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 13
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-25T15:26:01.061Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'a41a4476-d581-4811-8c49-04f20dd59c98',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 4
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-25T15:26:31.127Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6a1740f0-ce73-4968-8333-617b2b0505aa',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------522271028764060459967464',
+        'content-length': '278'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-25T15:26:55.865Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f9752d20-6796-4abd-808f-fe180ba24928',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------342030240518044314604918',
+        'content-length': '278'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-25T15:27:28.036Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9f469966-d163-4989-a716-4283418df73c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-25T15:28:11.912Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '06b92b30-e4f5-4fe2-941c-688f68663f72',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '0'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:28:47.180Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'c0b821b0-8a0d-49a1-930a-15a7c8028c2d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------331809938741337338529639',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:29:03.028Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6547a87f-5e19-41b3-9eaf-616a20e52927',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------992479286716967663091071',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:32:52.530Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '71b522ee-1d97-432a-885f-9a31b3a7a0ce',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------271982263012002205156054',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:34:08.894Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'c7c73bdc-0457-4684-b9db-3492614a5178',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------528901916497228946794059',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:34:12.598Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '6b26a717-2ee0-4f98-96e1-8de668ca24c0',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------610919674687855567783434',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:34:13.919Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '4b4a79c6-8187-480a-9d83-001d7137f848',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------052294026441697109390690',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:34:41.611Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '3923b5a6-5f9f-4370-8eed-ccb116b0093b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------615641131521913912155620',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 6
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:34:57.402Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f2d22ee9-b182-41e8-8953-6c72e4693a0b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------131250730542424993717276',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:35:18.854Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'content-type': 'text/plain',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '87b94fcb-dccc-4aaa-ade3-9f070f9dddb3',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '45'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:35:48.661Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'content-type': 'application/javascript',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f0d7e5bc-9433-4a6f-b2aa-2a187e5eb633',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '45'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:36:38.148Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'content-type': 'application/javascript',
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'ff170ec2-479e-4ba6-8867-f750b30a3c50',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '45'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 4
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:37:10.996Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '9060e2de-528d-4b7a-a2b0-81b584511103',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------891150543487909394378466',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 6
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:39:04.105Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '3c5e6bec-ad88-4316-b799-5fcd4a6e5d83',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------721683899686940227834136',
+        'content-length': '277'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 7
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:40:14.055Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'bdb6fc40-a37f-4316-9435-2428a13486d3',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '10'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:41:04.562Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '33db3643-cdec-490d-bc83-2eff56635bf6',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '26'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-08-25T15:41:26.708Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f1987563-8483-4cee-99b9-07ef3a063ead',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '26'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:41:40.695Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f3d04f4f-ebf8-4381-8554-641032ed768c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '26'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:41:56.583Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'b3d15713-8251-468c-ae10-1a033241219c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '36'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 12
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:45:10.013Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '92097ac2-6c01-4ca4-a6f8-29394b19a433',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T15:45:17.550Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'd0b03762-0d8e-4896-bc6d-02225096a41c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 8
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T20:25:01.311Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'f4d16f6a-a43a-42b6-84b0-b3dcf6ac4028',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 409 },
+    responseTime: 175
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-08-25T20:26:26.907Z'
+}
