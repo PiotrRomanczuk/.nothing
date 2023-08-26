@@ -14,6 +14,8 @@ const auth = require('./middleware/auth');
 const mongoose = require('mongoose');
 const uri = process.env.MONGODB_URI;
 
+const MongoDB_Connection = require('./config/DB/mongoDB');
+
 const notesRouter = require('./routes/notesRoutes');
 const authRouter = require('./routes/authRoutes');
 
@@ -38,11 +40,7 @@ app.get('/', (req, res) => {
 
 const startServer = async () => {
 	try {
-		await mongoose.connect(uri, {
-			useNewUrlParser: true,
-			useUnifiedTopology: true,
-		});
-		console.log('Successfully connected to MongoDB');
+		await MongoDB_Connection();
 
 		app.listen(PORT, () => {
 			console.log(`listening on port ${PORT}`);

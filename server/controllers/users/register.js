@@ -1,4 +1,6 @@
-const User = require('../../models/userModel');
+require('dotenv').config();
+
+const User = require('../../models/mongoDB/userModel');
 
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
@@ -12,9 +14,6 @@ const register = async (req, res) => {
 	try {
 		const { first_name, last_name, email, password } = req.body;
 
-		// console.log(req.body);
-		// console.log(req.params);
-
 		console.log(email, password);
 
 		if (!(email && password)) {
@@ -27,11 +26,12 @@ const register = async (req, res) => {
 			return res.status(400).send('Invalid email address');
 		}
 
-		// if (!validatePassword(password)) {
-		// 	return res.status(400).send('Invalid password format');
-		// }
+		if (!validatePassword(password)) {
+			return res.status(400).send('Invalid password format');
+		}
 
 		const oldUser = await User.findOne({ email });
+		console.log(oldUser);
 
 		if (oldUser) {
 			return res.status(409).send('User Already Exist. Please Login');
@@ -48,7 +48,7 @@ const register = async (req, res) => {
 
 		const token = jwt.sign(
 			{ user_id: user._id, email },
-			// process.env.TOKEN_KEY,
+			process.env.TOKEN_KEY,
 			{
 				expiresIn: '2h',
 			}

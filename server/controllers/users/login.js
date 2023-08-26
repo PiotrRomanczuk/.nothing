@@ -1,4 +1,4 @@
-const User = require('../../models/userModel');
+const User = require('../../models/mongoDB/userModel');
 
 const login = async (req, res) => {
 	try {

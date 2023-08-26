@@ -1,4 +1,4 @@
-const Note = require('../../models/noteModel');
+const Note = require('../../models/mongoDB/noteModel');
 
 // const findLastAndGenId = require('../../utils/findLastAndGenId');
 
