@@ -46,15 +46,7 @@ const register = async (req, res) => {
 			password: encryptedPassword,
 		});
 
-		const token = jwt.sign(
-			{ user_id: user._id, email },
-			process.env.TOKEN_KEY,
-			{
-				expiresIn: '2h',
-			}
-		);
-
-		user.token = token;
+		console.log(`Status of the token (is it expired): ${isTokenExpired}`);
 
 		res.status(201).json(user);
 	} catch (err) {

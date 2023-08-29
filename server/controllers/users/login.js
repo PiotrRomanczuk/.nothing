@@ -1,11 +1,13 @@
 const User = require('../../models/mongoDB/userModel');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 
 const login = async (req, res) => {
 	try {
 		const { email, password } = req.body;
 
 		if (!(email && password)) {
-			res.status(400).send('All input are required - email && password');
+			return res.status(400).send('All input are required - email && password');
 		}
 
 		console.log(email, password);
@@ -17,15 +19,17 @@ const login = async (req, res) => {
 				{ user_id: user._id, email },
 				process.env.TOKEN_KEY,
 				{
-					expiresIn: '2h',
+					expiresIn: '10m',
 				}
 			);
 
 			user.token = token;
 
-			res.status(200).json(user);
+			// console.log(token);
+			return res.status(200).json(user);
 		}
-		res.status(400).send('Invalid Credentials');
+
+		return res.status(400).send('Invalid Credentials');
 	} catch (err) {
 		console.log(err);
 	}

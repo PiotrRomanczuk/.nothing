@@ -12,9 +12,10 @@ const loggerConfig = require('./config/winstonLogger');
 const auth = require('./middleware/auth');
 
 const mongoose = require('mongoose');
+const MongoDB_Connection = require('./config/DB/mongoDB');
 const uri = process.env.MONGODB_URI;
 
-const MongoDB_Connection = require('./config/DB/mongoDB');
+const startDB = require('./database/sqlite');
 
 const notesRouter = require('./routes/notesRoutes');
 const authRouter = require('./routes/authRoutes');
@@ -41,7 +42,7 @@ app.get('/', (req, res) => {
 const startServer = async () => {
 	try {
 		await MongoDB_Connection();
-
+		await startDB('./database/testDB.db');
 		app.listen(PORT, () => {
 			console.log(`listening on port ${PORT}`);
 		});
