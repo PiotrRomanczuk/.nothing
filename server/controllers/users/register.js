@@ -46,8 +46,6 @@ const register = async (req, res) => {
 			password: encryptedPassword,
 		});
 
-		console.log(`Status of the token (is it expired): ${isTokenExpired}`);
-
 		res.status(201).json(user);
 	} catch (err) {
 		console.log(err);
