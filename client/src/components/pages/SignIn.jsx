@@ -1,11 +1,13 @@
 import React from 'react';
 import { useState } from 'react';
+import { useNavigate, withRouter } from 'react-router-dom';
 
 const SignIn = () => {
 	const [formData, setFormData] = useState({
 		email: '',
 		password: '',
 	});
+	const history = useNavigate();
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -30,6 +32,13 @@ const SignIn = () => {
 
 			const responseData = await response.json();
 			console.log('Response:', responseData);
+
+			if (responseData === 'Success') {
+				history.push('/dashboard');
+			} else {
+				alert('Authentication failed. Please try again.');
+				// MODAL ERROR
+			}
 		} catch (error) {
 			console.error('Error:', error);
 		}
@@ -43,7 +52,7 @@ const SignIn = () => {
 
 	return (
 		<>
-			<div className='flex min-h-full flex-1'>
+			<div className='flex flex-1 justify-center m-auto'>
 				<div className='flex flex-1 flex-col justify-center px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24'>
 					<div className='mx-auto w-full max-w-sm lg:w-96'>
 						<div>

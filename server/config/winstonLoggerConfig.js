@@ -1,6 +1,6 @@
 const winston = require('winston');
 
-const loggerConfig = {
+const winstonLoggerConfig = {
 	format: winston.format.combine(
 		winston.format.timestamp(),
 		winston.format.colorize(),
@@ -22,4 +22,4 @@ const loggerConfig = {
 	],
 };
 
-module.exports = loggerConfig;
+module.exports = winstonLoggerConfig;

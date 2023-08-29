@@ -7,7 +7,7 @@ const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
 
 const expressWinston = require('express-winston');
-const loggerConfig = require('./config/winstonLogger');
+const winstonLoggerConfig = require('./config/winstonLoggerConfig');
 
 const auth = require('./middleware/auth');
 
@@ -25,7 +25,7 @@ const PORT = 8080;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: '30mb', extended: true }));
 app.use(cors(corsOptions));
-app.use(expressWinston.logger(loggerConfig));
+app.use(expressWinston.logger(winstonLoggerConfig));
 
 app.use('/notes/', notesRouter);
 app.use('/user/', authRouter);
