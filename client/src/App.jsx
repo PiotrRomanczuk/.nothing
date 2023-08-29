@@ -1,18 +1,17 @@
-import './App.css';
-import NavBar from './components/shared/NavBar';
-import FetchData from './api/Fetch';
-import CardHeader from './components/shared/CardHeader';
-import Card from './components/shared/Card';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import { useState, useEffect } from 'react';
-import SettingTasks from './api/SettingTasks';
-import SignIn from './components/login-reg/SignIn';
+import SignIn from './components/pages/SignIn';
+import Dashboard from './components/dashboard/Dashboard';
 
 function App() {
 	return (
-		<div className='app'>
-			<SignIn />
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<SignIn />} />
+				<Route path='/dashboard' element={<Dashboard />} />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 
