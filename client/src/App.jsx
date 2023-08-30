@@ -10,7 +10,7 @@ import NotFound from './components/pages/404/NorFound';
 
 function App() {
 	const [isAuthenticated, setIsAuthenticated] = useState(false);
-
+	``;
 	return (
 		<BrowserRouter>
 			<Routes>
