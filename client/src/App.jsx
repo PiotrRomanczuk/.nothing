@@ -1,40 +1,26 @@
-import './App.css';
-import NavBar from './components/NavBar';
-import FetchData from './components/Fetch';
-import CardHeader from './components/CardHeader';
-import Card from './components/Card';
+import './index.css';
 
-import { useState, useEffect } from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
+
+import SignInPage from './components/pages/SignIn/SignInPage';
+import Dashboard from './components/pages/Dashboard/Dashboard';
+import NotFound from './components/pages/404/NorFound';
 
 function App() {
-	const [tasks, setTasks] = useState(null);
-
-	const settingTasks = () => {};
-
-	useEffect(() => {
-		// Call the FetchData function and set the data in state
-		async function fetchTasks() {
-			const responseData = await FetchData();
-			setTasks(responseData);
-		}
-
-		fetchTasks();
-	}, []);
-
-	console.log(tasks);
+	const [isAuthenticated, setIsAuthenticated] = useState(false);
 
 	return (
-		<div className='app'>
-			<NavBar />
-			<main>
-				{/* <h1>Hello from ToDo-App</h1> */}
-				{/* <CardHeader /> */}
-
-				<div className='container box'>
-					<Card />
-				</div>
-			</main>
-		</div>
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<SignInPage />} />
+				<Route path='/dashboard' element={<Dashboard />} />
+				{/* <Route path='/profile' element={<Profile />} /> // TODO make those components
+				<Route path='/settings' element={<Settings />} /> */}
+				<Route path='*' element={<NotFound />} />
+			</Routes>
+		</BrowserRouter>
 	);
 }
 
