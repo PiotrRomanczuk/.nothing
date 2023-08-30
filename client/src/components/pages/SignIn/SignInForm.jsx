@@ -7,7 +7,7 @@ const SignInForm = ({ formData, handleInputChange, handleSubmit }) => {
 				<div>
 					<img
 						className='h-10 w-auto'
-						src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+						src='https://upload.wikimedia.org/wikipedia/commons/3/30/Nothing.svg'
 						alt='Your Company'
 					/>
 					<h2 className='mt-8 text-2xl font-bold leading-9 tracking-tight text-gray-900'>

@@ -124,7 +124,7 @@ export default function Sidebar({ children }) {
 										<div className='flex h-16 shrink-0 items-center'>
 											<img
 												className='h-8 w-auto'
-												src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+												src='https://upload.wikimedia.org/wikipedia/commons/3/30/Nothing.svg'
 												alt='Your Company'
 											/>
 										</div>
@@ -218,7 +218,7 @@ export default function Sidebar({ children }) {
 						<div className='flex h-16 shrink-0 items-center'>
 							<img
 								className='h-8 w-auto'
-								src='https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600'
+								src='https://upload.wikimedia.org/wikipedia/commons/3/30/Nothing.svg'
 								alt='Your Company'
 							/>
 						</div>
