@@ -12,8 +12,14 @@ const Chat = () => {
 		setNewMessage('');
 	};
 
+	const handleKeyPress = (e) => {
+		if (e.key === 'Enter') {
+			handleSendMessage();
+		}
+	};
+
 	return (
-		<div className='bg-gray-200 h-screen p-4'>
+		<div className='bg-gray-200 h-auto p-4'>
 			<div className='bg-white rounded-lg p-4 shadow-md'>
 				<div className='h-60 overflow-y-auto mb-4'>
 					{messages.map((message, index) => (
@@ -42,6 +48,7 @@ const Chat = () => {
 						placeholder='Type your message...'
 						value={newMessage}
 						onChange={(e) => setNewMessage(e.target.value)}
+						onKeyUp={handleKeyPress}
 					/>
 					<button
 						className='bg-blue-600 text-white rounded-r-lg p-2'
