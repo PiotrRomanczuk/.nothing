@@ -1,13 +1,13 @@
 import React from 'react';
 import { useState } from 'react';
-import { useNavigate, withRouter } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const SignIn = () => {
 	const [formData, setFormData] = useState({
 		email: '',
 		password: '',
 	});
-	const history = useNavigate();
+	const navigate = useNavigate();
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -34,7 +34,7 @@ const SignIn = () => {
 			console.log('Response:', responseData);
 
 			if (responseData === 'Success') {
-				history.push('/dashboard');
+				navigate('/dashboard');
 			} else {
 				alert('Authentication failed. Please try again.');
 				// MODAL ERROR
