@@ -1,8 +1,10 @@
+import './index.css';
+
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 
-import SignIn from './components/pages/SignIn';
+import SignIn from './components/pages/SignIn-Register/SignIn';
 import Dashboard from './components/pages/Dashboard';
 
 function App() {

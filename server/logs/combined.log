@@ -5511,3 +5511,207 @@
   message: 'HTTP POST /user/login',
   timestamp: '2023-08-29T19:26:54.986Z'
 }
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '50',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        'content-type': 'application/json',
+        accept: '*/*',
+        origin: 'http://localhost:5173',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:5173/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 311
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-30T11:51:25.759Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '50',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        'content-type': 'application/json',
+        accept: '*/*',
+        origin: 'http://localhost:5173',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:5173/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 285
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-30T11:52:32.793Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '56',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        'content-type': 'application/json',
+        accept: '*/*',
+        origin: 'http://localhost:5173',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:5173/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 267
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-30T11:57:57.454Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '56',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        'content-type': 'application/json',
+        accept: '*/*',
+        origin: 'http://localhost:5173',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:5173/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 139
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-30T11:57:57.678Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '56',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        'content-type': 'application/json',
+        accept: '*/*',
+        origin: 'http://localhost:5173',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:5173/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 488
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-30T11:57:58.173Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: 'localhost:8080',
+        connection: 'keep-alive',
+        'content-length': '50',
+        'sec-ch-ua': '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"',
+        'sec-ch-ua-platform': '"macOS"',
+        'sec-ch-ua-mobile': '?0',
+        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
+        'content-type': 'application/json',
+        accept: '*/*',
+        origin: 'http://localhost:5173',
+        'sec-fetch-site': 'same-site',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-dest': 'empty',
+        referer: 'http://localhost:5173/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'pl-PL,pl;q=0.9,en-US;q=0.8,en;q=0.7'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 591
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-08-30T12:55:21.441Z'
+}
