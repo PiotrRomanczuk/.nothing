@@ -1,29 +1,25 @@
 import React from 'react';
 
-const Card = (props) => {
+const Card = ({ title, content }) => {
 	return (
-		<div className='block rounded-lg bg-white text-center  dark:bg-neutral-700'>
-			<div className='border-b-2 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50'>
-				Featured
-			</div>
-			<div className='p-6'>
-				<h5 className='mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50'>
-					Special title treatment {props.title}
-				</h5>
-				<p className='mb-4 text-base text-neutral-600 dark:text-neutral-200'>
-					With supporting text below as a natural lead-in to additional content.
-				</p>
-				<button
-					type='button'
-					className='inline-block rounded bg-primary px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-primary-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]'
-					data-te-ripple-init
-					data-te-ripple-color='light'
-				>
-					Button
-				</button>
-			</div>
-			<div className='border-t-2 border-neutral-100 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50'>
-				2 days ago
+		<div class='max-w-md bg-white rounded-xl overflow-hidden shadow-lg m-2 flex'>
+			{/* <div class='w-1/3'>
+				<img class='w-full' src='image.jpg' alt='Card Image' />
+			</div> */}
+			<div class=' px-6 py-4'>
+				<div class='font-bold text-xl mb-2'>{title}</div>
+				<p class='text-gray-700 text-base'>{content}</p>
+				<div class='mt-4 flex'>
+					<span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2'>
+						Tag1
+					</span>
+					<span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2'>
+						Tag2
+					</span>
+					<span class='inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700'>
+						Tag3
+					</span>
+				</div>
 			</div>
 		</div>
 	);
