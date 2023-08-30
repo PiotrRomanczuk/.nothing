@@ -9,11 +9,16 @@ Creating id for the user 1 and above - it aint make no sense - uses random numbe
 
 User Token - how to configure it to works it longer 
 
-Creating SQL DB with CardUsers, Cards, and transactions
+
 Create relationship between all of the above
 
 Front-End:
 
 Caching the token
+
+Chat:
+    audio/video and messenger
+
+
 
 -->

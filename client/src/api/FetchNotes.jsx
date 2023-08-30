@@ -1,4 +1,4 @@
-export default async function FetchData() {
+export default async function FetchNotes() {
 	const url = 'http://localhost:8080/notes';
 
 	const response = await fetch(url);
