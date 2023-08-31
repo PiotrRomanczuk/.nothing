@@ -1,24 +1,19 @@
 import React, { useState, useEffect } from 'react';
 
 import Card from '../../shared/Card';
-import Sidebar from './Sidebar';
+import Sidebar from '../../shared/Sidebar';
 import SettingTasks from '../../../api/SettingTasks';
 import Chat from '../../shared/Chat';
+import FetchNotes from '../../../api/FetchNotes';
 
 const Dashboard = () => {
+	FetchNotes();
+
 	const [showChat, setShowChat] = useState(false);
 
 	const toggleChat = () => {
 		setShowChat(!showChat);
 	};
-
-	const loadDataOnlyOnce = () => {
-		console.log('loadDataOnlyOnce');
-	};
-
-	useEffect(() => {
-		loadDataOnlyOnce(); // this will fire only on first render
-	}, []);
 
 	return (
 		<main className='flex flex-col'>

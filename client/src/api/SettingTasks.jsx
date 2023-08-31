@@ -2,22 +2,15 @@ import React from 'react';
 import FetchNotes from './FetchNotes';
 import { useState, useEffect } from 'react';
 
-const SettingTasks = () => {
+const SettingTasks = async () => {
 	const [tasks, setTasks] = useState(null);
 
-	const settingTasks = () => {};
-
-	useEffect(() => {
-		// Call the FetchData function and set the data in state
-		async function fetchTasks() {
-			const responseData = await FetchNotes();
-			setTasks(responseData);
-		}
-
-		fetchTasks();
-	}, []);
+	const responseData = await FetchNotes();
+	setTasks(responseData);
 
 	console.log(tasks);
+
+	// fetchTasks();
 };
 
 export default SettingTasks;
