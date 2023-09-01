@@ -1,9 +1,12 @@
 require('dotenv').config();
+const path = require('path');
 
-const User = require('../../models/mongoDB/userModel');
+// const User = require('../../models/mongoDB/userModel');
+
+const sqlite3 = require('sqlite3');
+const db = new sqlite3.Database('../../main.db');
 
 const bcrypt = require('bcryptjs');
-const jwt = require('jsonwebtoken');
 
 const {
 	validatePassword,
@@ -12,41 +15,47 @@ const {
 
 const register = async (req, res) => {
 	try {
-		const { first_name, last_name, email, password } = req.body;
-
-		console.log(email, password);
+		let { first_name, last_name, email, password } = req.body;
 
 		if (!(email && password)) {
 			return res
 				.status(400)
 				.send('All inputs are required - email && password');
 		}
-
 		if (!validateEmail(email)) {
 			return res.status(400).send('Invalid email address');
 		}
-
 		if (!validatePassword(password)) {
 			return res.status(400).send('Invalid password format');
 		}
 
-		const oldUser = await User.findOne({ email });
-		console.log(oldUser);
-
-		if (oldUser) {
-			return res.status(409).send('User Already Exist. Please Login');
-		}
-
 		encryptedPassword = await bcrypt.hash(password, 10);
-
-		const user = await User.create({
-			first_name,
-			last_name,
-			email: email.toLowerCase(),
-			password: encryptedPassword,
+		db.serialize(() => {
+			db.run(`
+				CREATE TABLE IF NOT EXISTS users (
+				id INTEGER PRIMARY KEY AUTOINCREMENT,
+				first_name TEXT,
+				last_name TEXT NOT NULL,
+				email TEXT NOT NULL,
+				password TEXT NOT NULL)
+				`);
 		});
+		console.log(db);
+		password = encryptedPassword;
 
-		res.status(201).json(user);
+		// Insert the user into the database
+		const insertQuery = `
+				INSERT INTO users (email, password)
+				VALUES (?, ?)
+			`;
+
+		db.run(insertQuery, [email, password], (err) => {
+			if (err) {
+				console.log(err); // Log the error for debugging
+				return res.status(500).json({ error: 'Unable to create user.' });
+			}
+			res.status(201).json({ message: 'User created successfully.' });
+		});
 	} catch (err) {
 		console.log(err);
 	}
