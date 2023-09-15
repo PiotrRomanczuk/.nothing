@@ -1,5 +1,7 @@
 const jwt = require('jsonwebtoken');
 
+// TODO Implementation oAuth
+
 const config = process.env;
 
 const verifyToken = (req, res, next) => {

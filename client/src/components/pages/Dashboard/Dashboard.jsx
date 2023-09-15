@@ -7,13 +7,19 @@ import Chat from '../../shared/Chat';
 import FetchNotes from '../../../api/FetchNotes';
 
 const Dashboard = () => {
-	FetchNotes();
-
 	const [showChat, setShowChat] = useState(false);
 
 	const toggleChat = () => {
 		setShowChat(!showChat);
 	};
+
+	const loadDataOnlyOnce = () => {
+		console.log('loadDataOnlyOnce');
+	};
+
+	useEffect(() => {
+		loadDataOnlyOnce(); // this will fire only on first render
+	}, []);
 
 	return (
 		<main className='flex flex-col'>
@@ -23,10 +29,10 @@ const Dashboard = () => {
 					{/* <CardHeader /> */}
 
 					<div className='flex mb-10'>
-						<Card title={'Java'} content={'Lorem ipsum'} />
-						<Card title={'Java'} content={'Lorem ipsum'} />
-						<Card title={'Java'} content={'Lorem ipsum'} />
-						<Card title={'Java'} content={'Lorem ipsum'} />
+						<Card />
+						<Card />
+						<Card />
+						<Card />
 					</div>
 					<div>
 						<button
