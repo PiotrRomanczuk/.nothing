@@ -2,9 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import SignInForm from './SignInForm';
-import SignInPhoto from './SignInPhoto';
 import SocialMediaLogin from './SocialMediaLogin';
-import ModalSingle from '../../shared/Modals/ModalSingle';
 
 const SignInPage = () => {
 	const [formData, setFormData] = useState({
@@ -12,16 +10,6 @@ const SignInPage = () => {
 		password: '',
 	});
 	const navigate = useNavigate();
-
-	const [isModalOpen, setIsModalOpen] = useState(false);
-
-	const openModal = () => {
-		setIsModalOpen(true);
-	};
-
-	const closeModal = () => {
-		setIsModalOpen(false);
-	};
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
@@ -45,7 +33,6 @@ const SignInPage = () => {
 			console.log(responseData);
 
 			if (!response.ok) {
-				openModal();
 				throw new Error(`HTTP Error! Status: ${response.status} + ${response}`);
 			}
 
@@ -65,7 +52,6 @@ const SignInPage = () => {
 		setFormData({ ...formData, [name]: value });
 		console.log(formData);
 	};
-
 	return (
 		<>
 			<div className='flex flex-1 justify-center h-full items-center m-auto'>
@@ -77,21 +63,15 @@ const SignInPage = () => {
 					/>
 					<SocialMediaLogin />
 				</div>
-				{isModalOpen ? (
-					<div>
-						<ModalSingle
-							isOpen={isModalOpen}
-							onClose={closeModal}
-							IconColor='red'
-							Title='Error'
-							Info='Wrong username or password'
-						></ModalSingle>
-					</div>
-				) : null}
-				<SignInPhoto />
+				{/* <div className='relative hidden w-0 flex-1 lg:block'>
+					<img
+						className='absolute inset-0 h-full w-full object-cover'
+						src='https://images.unsplash.com/photo-1496917756835-20cb06e75b4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1908&q=80'
+						alt=''
+					/>
+				</div> */}
 			</div>
 		</>
 	);
 };
-
 export default SignInPage;
