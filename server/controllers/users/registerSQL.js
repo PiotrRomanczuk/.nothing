@@ -35,16 +35,9 @@ const register = async (req, res) => {
 
 		password = encryptedPassword;
 
-		const CREATE_TABLE = `
-					CREATE TABLE IF NOT EXISTS users (
-						id INTEGER PRIMARY KEY AUTOINCREMENT,
-						first_name TEXT,
-						email TEXT NOT NULL,
-						password TEXT NOT NULL
-						)`;
-
 		const pathDB = path.join(__dirname, '../../testDB1.db');
 		console.log(pathDB);
+
 		let db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {
 				console.error(err.message);
@@ -54,6 +47,14 @@ const register = async (req, res) => {
 		});
 
 		db.serialize(() => {
+			const CREATE_TABLE = `
+				CREATE TABLE IF NOT EXISTS users (
+				id INTEGER PRIMARY KEY AUTOINCREMENT,
+				first_name TEXT,
+				email TEXT NOT NULL,
+				password TEXT NOT NULL
+        )`;
+
 			db.run(CREATE_TABLE, (err) => {
 				if (err) {
 					console.error(err.message);
@@ -64,19 +65,35 @@ const register = async (req, res) => {
 		`;
 					console.log({ email, password });
 
-					db.run(insertQuery, [email, password], (err) => {
+					const checkUserQuery = 'SELECT id FROM users WHERE email = ?';
+
+					db.get(checkUserQuery, [email], (err, row) => {
 						if (err) {
-							console.error(`SQL insert error: ${err.message}`);
-							// console.log('Error happend here');
+							console.error(`SQL select error: ${err.message}`);
 							return res.status(500).json({ error: 'Unable to create user.' });
 						}
-						res.status(201).json({ message: 'User created successfully.' });
+
+						if (row) {
+							// User already exists
+							return res
+								.status(400)
+								.json({ error: 'User with this email already exists.' });
+						} else {
+							db.run(insertQuery, [email, password], (err) => {
+								if (err) {
+									console.error(`SQL insert error: ${err.message}`);
+									// console.log('Error happend here');
+									return res
+										.status(500)
+										.json({ error: 'Unable to create user.' });
+								}
+								res.status(201).json({ message: 'User created successfully.' });
+							});
+						}
 					});
 				}
 			});
 		});
-
-		// db.close();
 	} catch (err) {
 		console.error(err);
 	}

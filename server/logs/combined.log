@@ -8217,3 +8217,84 @@
   message: 'HTTP POST /user/register',
   timestamp: '2023-09-15T10:33:47.456Z'
 }
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '47bb8115-1c8d-4210-a449-b8dee3f2daf1',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '47'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 130
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:38:14.789Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'e8757c58-1284-4fad-aa9a-52c819599679',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '47'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 129
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:41:36.091Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '349d5770-0de1-443c-8d3d-9e3e83751cca',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '47'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 128
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:42:40.118Z'
+}
