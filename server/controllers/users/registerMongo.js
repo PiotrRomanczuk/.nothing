@@ -1,10 +1,10 @@
 require('dotenv').config();
 const path = require('path');
 
-// const User = require('../../models/mongoDB/userModel');
+const sqlite3 = require('sqlite3').verbose();
+const db = new sqlite3.Database('main.db');
 
-const sqlite3 = require('sqlite3');
-const db = new sqlite3.Database('../../main.db');
+// console.log(db.all());
 
 const bcrypt = require('bcryptjs');
 
@@ -15,7 +15,7 @@ const {
 
 const register = async (req, res) => {
 	try {
-		let { first_name, last_name, email, password } = req.body;
+		let { email, password } = req.body;
 
 		if (!(email && password)) {
 			return res
@@ -30,28 +30,31 @@ const register = async (req, res) => {
 		}
 
 		encryptedPassword = await bcrypt.hash(password, 10);
-		db.serialize(() => {
-			db.run(`
-				CREATE TABLE IF NOT EXISTS users (
-				id INTEGER PRIMARY KEY AUTOINCREMENT,
-				first_name TEXT,
-				last_name TEXT NOT NULL,
-				email TEXT NOT NULL,
-				password TEXT NOT NULL)
-				`);
-		});
+
 		console.log(db);
 		password = encryptedPassword;
 
+		const CREATE_TABLE = `
+			CREATE TABLE IF NOT EXISTS users (
+			id INTEGER PRIMARY KEY AUTOINCREMENT,
+			first_name TEXT,
+			last_name TEXT NOT NULL,
+			email TEXT NOT NULL,
+			password TEXT NOT NULL
+  )`;
+
+		db.serialize(() => {
+			db.run(CREATE_TABLE);
+		});
 		// Insert the user into the database
 		const insertQuery = `
 				INSERT INTO users (email, password)
-				VALUES (?, ?)
+				VALUES (piotr@piotr.com, qwert)
 			`;
 
 		db.run(insertQuery, [email, password], (err) => {
 			if (err) {
-				console.log(err); // Log the error for debugging
+				console.log(err);
 				return res.status(500).json({ error: 'Unable to create user.' });
 			}
 			res.status(201).json({ message: 'User created successfully.' });

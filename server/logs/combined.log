@@ -7009,3 +7009,1211 @@
   message: 'HTTP POST /user/register/',
   timestamp: '2023-09-01T12:21:53.708Z'
 }
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '4e892471-5a30-4fbd-88de-a9e64961322c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '44'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 132
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-01T12:37:10.576Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0960f3a8-c454-4c72-b43a-cdb6c1eb1907',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '44'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 126
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-01T12:38:14.614Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '04eb5a41-27f6-4b38-82ab-594379ea7548',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '44'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 129
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-01T12:54:43.473Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '0b4a9cbf-f367-4a7d-b61f-1150da6e0858',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '44'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 126
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-01T12:55:22.842Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'cbe71c4e-67b4-4b14-b13e-7945014cc292',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '44'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 127
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-01T12:55:56.683Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': '302df1b8-a2ce-4e46-9f9f-9968f0527f7e',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '44'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 126
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-01T12:56:29.025Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.3',
+        accept: '*/*',
+        'postman-token': 'e93c98c5-0a79-4304-8de1-c6a1a05cb06b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '44'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 134
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-01T13:12:17.023Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'content-type': 'application/javascript',
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '9a51887f-48eb-4fd2-b07f-edf5b6823c85',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '45'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 12
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-12T10:32:43.577Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'content-type': 'application/javascript',
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '05ae8e28-ed8d-497b-8aae-e89a595407b4',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '45'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-12T10:33:16.385Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '66b6814e-2cc6-4904-b820-794aa2a43858',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 172
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:33:45.837Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '4b4547be-413f-4687-971f-ce1c2f4514b4',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 126
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:35:20.137Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '166bdbf1-11ae-4e77-ba45-9f3feb27e6a5',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 141
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:36:21.572Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '901a8a65-1a70-4c69-ad68-30818e0f68b0',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 115
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:37:05.681Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'f1b86bc4-d407-4f2c-ae9b-bbb20f08ad8b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 122
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:37:32.777Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '64657d78-e24d-4424-acd2-89c003619b3f',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 137
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:37:49.677Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '5a0d5358-a55c-479b-8fd3-523479a725ec',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 114
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:38:49.973Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '4b11a233-86c3-41c0-b2d9-a12b5c2e4599',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 139
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:39:20.234Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '4c4bf051-aaa2-4c7f-9bc9-d002dbc85f57',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 115
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:39:39.939Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '2031ea62-e9b9-40bd-b824-da42fc58230b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 126
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:45:58.462Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'b4790c8f-0c28-4b60-85f9-53a2ff8bd930',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 135
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:48:09.122Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '4c7ce31e-e180-415c-9ef2-aafe57d4df18',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 124
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:48:26.812Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '0bb0daa6-de1d-42e8-98c4-deb5db152cf2',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 127
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:48:53.690Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '02503a78-49fa-4a60-a959-99a40c328b4c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 123
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:49:04.812Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'de5c2492-2288-4902-9985-55d07690ed46',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 122
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:49:14.562Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'c43d280b-7a53-4585-a6c5-cf90eba5597f',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 161
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:49:35.784Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '89486e44-b8f5-4f90-b202-3b880f438b3d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 123
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:49:59.424Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'ce9750ab-f239-4107-b101-68765971cb93',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 122
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T10:50:56.289Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '0208e929-e7ed-4f9a-9d89-a7186a8fa233',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 126
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T13:13:38.359Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '4e8c2241-03b5-46bf-82ac-8b1329808ea8',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 125
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T13:14:35.464Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '6957c323-1fb2-4935-8b32-2dda9a5abb53',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 123
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T13:15:19.851Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'ad036d7c-8483-4f05-a911-fb09481d780f',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 127
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-12T13:28:36.309Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '29f6d58f-0075-4628-842e-1ac965f2c667',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 156
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-14T10:49:31.787Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'd2fffdc8-ddec-4e05-9987-f7f589ce0343',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 127
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-14T10:57:10.290Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'b1751cf4-9c93-4b15-8536-3e10f7bd6459',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 127
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-14T11:07:17.606Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '2e991972-7840-43a4-991b-99c75f85ee92',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 127
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-14T11:07:58.465Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '972df5da-4351-47e4-8c50-fcedfc87a4ea',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 500 },
+    responseTime: 28
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:29:55.141Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '326bb766-7bbe-484a-833a-c1ca76cd30d4',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 12
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:31:23.587Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'd9e0dd9c-8ff0-4653-af74-0352128bea48',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 12
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:31:36.638Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '130909b5-9e71-4ee1-80d0-24eff115981b',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:31:38.612Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '12787f15-d4eb-48b4-97bd-0db91920b98c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '42'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:31:39.858Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'e2c8aa97-6ecb-48d2-a240-23539924e293',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '44'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:31:55.567Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '04a66d68-b3d0-4fd7-9199-e8b6aefed732',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '47'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:31:58.143Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'b4271632-622a-4bf7-9b9c-20435af35b1e',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '47'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 5
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:32:54.185Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'd68da04a-4b16-42a6-b926-bdc60ff1d09d',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '47'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 3
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:32:59.827Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '117453be-6bba-4886-a68a-d1e48f401903',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '47'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register',
+      query: {}
+    },
+    res: { statusCode: 201 },
+    responseTime: 124
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register',
+  timestamp: '2023-09-15T10:33:47.456Z'
+}
