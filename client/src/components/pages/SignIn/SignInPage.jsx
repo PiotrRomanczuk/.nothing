@@ -28,14 +28,15 @@ const SignInPage = () => {
 				requestOptions
 			);
 
+			const responseData = await response.json();
+			console.log('Response:');
+			console.log(responseData);
+
 			if (!response.ok) {
-				throw new Error(`HTTP Error! Status: ${response.status}`);
+				throw new Error(`HTTP Error! Status: ${response.status} + ${response}`);
 			}
 
-			const responseData = await response.json();
-			console.log('Response:', responseData);
-
-			if (responseData === 'Success') {
+			if (responseData.message === 'Success') {
 				navigate('/dashboard');
 			} else {
 				alert('Authentication failed. Please try again.');

@@ -12,7 +12,7 @@ const bcrypt = require('bcryptjs');
 const {
 	validatePassword,
 	validateEmail,
-} = require('../../utils/email&passValidate');
+} = require('../../../utils/email&passValidate');
 
 const register = async (req, res) => {
 	try {
@@ -35,7 +35,7 @@ const register = async (req, res) => {
 
 		password = encryptedPassword;
 
-		const pathDB = path.join(__dirname, '../../testDB1.db');
+		const pathDB = path.join(__dirname, '../../../testDB1.db');
 		console.log(pathDB);
 
 		let db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {

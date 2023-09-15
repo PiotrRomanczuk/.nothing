@@ -11,7 +11,7 @@ const bcrypt = require('bcryptjs');
 const {
 	validatePassword,
 	validateEmail,
-} = require('../../utils/email&passValidate');
+} = require('../../../utils/email&passValidate');
 
 const register = async (req, res) => {
 	try {
