@@ -10,10 +10,12 @@ import NotFound from './components/pages/404/NorFound';
 
 function App() {
 	const [isAuthenticated, setIsAuthenticated] = useState(false);
-	``;
+
 	return (
 		<BrowserRouter>
 			<Routes>
+				// TODO Implementation of dashboard only for auth users // FIXME
+				Dashboard component the same on TEAM/PROJECTS/CALENDAR/DOCS/REPORTS
 				<Route path='/' element={<SignInPage />} />
 				<Route path='/dashboard' element={<Dashboard />} />
 				{/* <Route path='/profile' element={<Profile />} /> // TODO make those components

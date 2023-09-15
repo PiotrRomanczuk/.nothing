@@ -6,6 +6,8 @@ import SettingTasks from '../../../api/SettingTasks';
 import Chat from '../../shared/Chat';
 
 const Dashboard = () => {
+	// TODO Implementation of chat through Socket.io interface
+
 	const [showChat, setShowChat] = useState(false);
 
 	const toggleChat = () => {
@@ -15,7 +17,8 @@ const Dashboard = () => {
 	const loadDataOnlyOnce = () => {
 		console.log('loadDataOnlyOnce');
 	};
-
+	// FIXME WTF is rendering 2/4x?
+	// TO DO Caching??
 	useEffect(() => {
 		loadDataOnlyOnce(); // this will fire only on first render
 	}, []);
@@ -28,10 +31,10 @@ const Dashboard = () => {
 					{/* <CardHeader /> */}
 
 					<div className='flex mb-10'>
-						<Card title={'Java'} content={'Lorem ipsum'} />
-						<Card title={'Java'} content={'Lorem ipsum'} />
-						<Card title={'Java'} content={'Lorem ipsum'} />
-						<Card title={'Java'} content={'Lorem ipsum'} />
+						<Card />
+						<Card />
+						<Card />
+						<Card />
 					</div>
 					<div>
 						<button

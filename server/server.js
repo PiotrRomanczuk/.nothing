@@ -11,12 +11,6 @@ const winstonLoggerConfig = require('./config/winstonLoggerConfig');
 
 const auth = require('./middleware/auth');
 
-const mongoose = require('mongoose');
-const MongoDB_Connection = require('./config/DB/mongoDB');
-const uri = process.env.MONGODB_URI;
-
-const startDB = require('./database/sqlite');
-
 const notesRouter = require('./routes/notesRoutes');
 const authRouter = require('./routes/authRoutes');
 
@@ -26,6 +20,10 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: '30mb', extended: true }));
 app.use(cors(corsOptions));
 app.use(expressWinston.logger(winstonLoggerConfig));
+app.use((err, req, res, next) => {
+	console.error(err.stack);
+	res.status(500).send(`Error: ${err.stack}`);
+});
 
 app.use('/notes/', notesRouter);
 app.use('/user/', authRouter);
@@ -38,11 +36,10 @@ app.get('/', (req, res) => {
 	console.log('Hello in server!');
 	res.send('Hello from the server');
 });
+// TODO SQLite database implementation for users and tasks
 
 const startServer = async () => {
 	try {
-		await MongoDB_Connection();
-		await startDB('./database/testDB.db');
 		app.listen(PORT, () => {
 			console.log(`listening on port ${PORT}`);
 		});

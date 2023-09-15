@@ -1,3 +1,5 @@
+// TODO Test server application
+
 // const chai = require('chai');
 // const chaiHttp = require('chai-http');
 // const { expect } = require('chai');
@@ -5,7 +7,6 @@
 // const Note = require('../models/noteModel');
 
 // // const agent = chaiHttp.request.agent(app); // Assuming you have the 'chai-http' package installed
-
 // before(async () => {
 // 	await startServer(); // Start the server before running tests
 // 	// Clear the database or perform any setup you need before testing

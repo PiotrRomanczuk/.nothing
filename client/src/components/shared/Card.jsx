@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ title, content }) => {
+const Card = ({ title = 'Java', content = 'Lorem Ipsum' }) => {
 	return (
 		<div className='max-w-md bg-white rounded-xl overflow-hidden shadow-lg m-2 flex'>
 			{/* <div class='w-1/3'>

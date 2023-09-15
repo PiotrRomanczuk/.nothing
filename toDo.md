@@ -5,9 +5,14 @@ Back-End:
 Logger:
     config the error logs
 
-Creating id for the user 1 and above - it aint make no sense - uses random number generator- done
-
-User Token - how to configure it to works it longer 
+Rest API:
+    POST /signup: Registering a new user
+    POST /login: Logging in
+    GET /user: Retrieving a user’s profile (restricted to the user themselves)
+    PATCH /users/:userId: Updating a user’s profile (restricted to the user themselves)
+    GET /users/all: Retrieving all users (available to all users)
+    PATCH /user/change-role/:userId: Updating a user’s role (restricted to admins)
+    DELETE /user/:userId: Deleting a user (restricted to admins) 
 
 
 Create relationship between all of the above
