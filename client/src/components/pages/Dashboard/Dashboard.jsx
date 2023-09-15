@@ -1,13 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
 import Card from '../../shared/Card';
-import Sidebar from './Sidebar';
+import Sidebar from '../../shared/Sidebar';
 import SettingTasks from '../../../api/SettingTasks';
 import Chat from '../../shared/Chat';
+import FetchNotes from '../../../api/FetchNotes';
 
 const Dashboard = () => {
-	// TODO Implementation of chat through Socket.io interface
-
 	const [showChat, setShowChat] = useState(false);
 
 	const toggleChat = () => {
@@ -17,8 +16,7 @@ const Dashboard = () => {
 	const loadDataOnlyOnce = () => {
 		console.log('loadDataOnlyOnce');
 	};
-	// FIXME WTF is rendering 2/4x?
-	// TO DO Caching??
+
 	useEffect(() => {
 		loadDataOnlyOnce(); // this will fire only on first render
 	}, []);
