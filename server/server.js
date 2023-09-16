@@ -14,7 +14,7 @@ const auth = require('./middleware/auth');
 const notesRouter = require('./routes/notesRoutes');
 const authRouter = require('./routes/authRoutes');
 
-const PORT = 3000;
+const PORT = 8080;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: '30mb', extended: true }));
