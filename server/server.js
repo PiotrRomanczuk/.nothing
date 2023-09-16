@@ -14,7 +14,7 @@ const auth = require('./middleware/auth');
 const notesRouter = require('./routes/notesRoutes');
 const authRouter = require('./routes/authRoutes');
 
-const PORT = 8080;
+const PORT = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json({ limit: '30mb', extended: true }));
@@ -48,6 +48,12 @@ const startServer = async () => {
 	}
 };
 
+const closeServer = () => {
+	if (app) {
+		app.close();
+	}
+};
+
 startServer();
 
-module.exports = { app, startServer };
+module.exports = { app, startServer, closeServer, PORT };
