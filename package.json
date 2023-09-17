@@ -18,12 +18,13 @@
 	},
 	"homepage": "https://github.com/PiotrRomanczuk/ToDoList#readme",
 	"dependencies": {
-		"chai": "^4.3.7",
-		"chai-http": "^4.4.0",
 		"if-env": "^1.0.4",
 		"nodemon": "^3.0.1"
 	},
 	"devDependencies": {
-		"dotenv": "^16.3.1"
+		"chai": "^4.3.8",
+		"chai-http": "^4.4.0",
+		"dotenv": "^16.3.1",
+		"mocha": "^10.2.0"
 	}
 }
