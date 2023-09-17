@@ -15,11 +15,3 @@ jobs:
           npm ci
           npm run test
           npm run dev
-
-      - name: Deploy
-        # Only run this step if the branch is main
-        if: github.ref == 'refs/heads/main'
-        env:
-          deploy_url: ${{ 'https://api.render.com/deploy/srv-ck2oqp6ru70s73930v3g?key=9BH5Ae2jmGQ' }}
-        run: |
-          curl "$deploy_url"

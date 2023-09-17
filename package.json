@@ -6,7 +6,8 @@
 		"build": "if-env TYPE=server && (cd server && npm install) || (cd client && npm install)",
 		"server": "nodemon ./server/server.js",
 		"serverTest": "cd server && ",
-		"client": "cd client && npm run dev"
+		"client": "cd client && npm run dev",
+		"testServer": "mocha ./server/tests/**/*.test.js"
 	},
 	"repository": {
 		"type": "git",
