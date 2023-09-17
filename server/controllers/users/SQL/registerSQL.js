@@ -1,9 +1,6 @@
 require('dotenv').config();
 const path = require('path');
 
-// const pathDB =
-// '/home/brunodev/Documents/vscode/Git/backend/src/database/database.db';
-
 const sqlite3 = require('sqlite3').verbose();
 // const db = new sqlite3.Database('../../database/main.db');
 
