@@ -25,9 +25,9 @@ app.use(cors(corsOptions));
 app.use(expressWinston.logger(winstonLoggerConfig));
 
 app.use('/notes/', notesRouter);
-app.use('/', userRouter);
+app.use('/user/', userRouter);
 
-app.post('/welcome', auth, (req, res) => {
+app.get('/welcome', (req, res) => {
 	res.status(200).send('Welcome 🙌 ');
 });
 

@@ -2,6 +2,8 @@
 
 Back-End:
 
+All routes for SQL for notes && users + test for all the routes
+
 Logger:
     config the error logs
 
@@ -19,11 +21,11 @@ Create relationship between all of the above
 
 Front-End:
 
+    Clerk.com - authentication and authorization
+
 Caching the token
 
 Chat:
     audio/video and messenger
-
-
 
 -->
