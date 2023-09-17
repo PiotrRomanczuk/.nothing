@@ -22,7 +22,7 @@ describe('Express App', () => {
 			.request(app)
 			.get('/')
 			.end((err, res) => {
-				expect(res).to.have.status(200);
+				expect(res).to.have.status(201);
 				done();
 			});
 	});
