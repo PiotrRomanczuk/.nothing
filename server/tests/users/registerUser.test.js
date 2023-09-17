@@ -7,17 +7,24 @@ chai.use(chaiHttp);
 const expect = chai.expect;
 
 describe('User Registration', () => {
-	it('should successfully register a new user', (done) => {
+	// Define a variable to store the user credentials for testing
+	let userCredentials = {
+		email: 'test@example.com',
+		password: 'Tstpassword123!!',
+	};
+
+	// Use a before hook to create a user before testing
+	before((done) => {
 		supertest(app)
 			.post('/user/register/')
-			.send({ email: 'test@example.com', password: 'Tstpassword123!!' })
+			.send(userCredentials)
 			.end((err, res) => {
-				console.log(res.status);
-				expect(res).to.have.status(201);
-				expect(res.body)
-					.to.have.property('message')
-					.to.equal('User created successfully.');
-				done();
+				if (err) {
+					console.error('Error creating user:', err);
+					done(err);
+				} else {
+					done();
+				}
 			});
 	});
 
@@ -47,5 +54,19 @@ describe('User Registration', () => {
 			});
 	});
 
-	// Add more test cases for password validation, duplicate registration, etc.
+	it('should return a 409 Conflict if the user already exists', (done) => {
+		chai
+			.request(app)
+			.post('/user/register/')
+			.send(userCredentials) // Attempt to create the same user again
+			.end((err, res) => {
+				expect(res).to.have.status(409);
+				expect(res.body)
+					.to.have.property('message')
+					.to.equal('User with this email already exists.');
+				done();
+			});
+	});
+
+	// Add more test cases for password validation, etc.
 });

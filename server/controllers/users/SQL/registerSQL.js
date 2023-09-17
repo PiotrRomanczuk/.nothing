@@ -73,8 +73,8 @@ const register = async (req, res) => {
 						if (row) {
 							// User already exists
 							return res
-								.status(400)
-								.json({ error: 'User with this email already exists.' });
+								.status(409)
+								.json({ message: 'User with this email already exists.' });
 						} else {
 							db.run(insertQuery, [email, password], (err) => {
 								if (err) {
