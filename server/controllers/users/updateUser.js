@@ -1,9 +1,10 @@
-const bcrypt = require('bcryptjs');
 const sqlite3 = require('sqlite3').verbose();
+const path = require('path');
+const bcrypt = require('bcryptjs');
 const {
 	validatePassword,
 	validateEmail,
-} = require('../../../utils/email&passValidate');
+} = require('../../utils/email&passValidate');
 
 const updateUser = async (req, res) => {
 	try {
@@ -24,6 +25,7 @@ const updateUser = async (req, res) => {
 			return res.status(400).json({ error: 'Invalid password format' });
 		}
 
+		const pathDB = path.join(__dirname, '../../database/main.db');
 		const db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {
 				console.error(err.message);

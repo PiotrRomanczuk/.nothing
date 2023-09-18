@@ -1,11 +1,12 @@
 const express = require('express');
 const sqlite3 = require('sqlite3').verbose();
-const router = express.Router();
+const path = require('path');
 
 const deleteUser = async (req, res) => {
 	try {
 		const userId = req.params.userId;
 
+		const pathDB = path.join(__dirname, '../../database/main.db');
 		const db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {
 				console.error(err.message);
