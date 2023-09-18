@@ -1,5 +1,5 @@
-const login = require('../controllers/users/SQL/loginSQL');
-const register = require('../controllers/users/SQL/registerSQL');
+const login = require('../controllers/users/login');
+const register = require('../controllers/users/register');
 
 var express = require('express');
 var router = express.Router();

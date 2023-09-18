@@ -11532,3 +11532,327 @@
   message: 'HTTP GET /welcome',
   timestamp: '2023-09-18T07:50:14.637Z'
 }
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'content-type': 'application/javascript',
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'e294d21c-1ae0-427e-b165-25582a9998ae',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '45'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 13
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:47:16.992Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'e1f2d218-8e08-46ab-bcae-e5a8828e9c22',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'multipart/form-data; boundary=--------------------------815153730109670817384070',
+        'content-length': '275'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:47:32.546Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '4fb3124a-1c41-43a7-8fd2-9a4ce4f92ad4',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '24'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:47:42.548Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'c2944d23-0782-4d69-82b3-97ec06f41288',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '34'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 400 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:47:48.775Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'cb6ac23d-315d-43ba-94c1-03bf2f84e968',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '40'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 201 },
+    responseTime: 125
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:48:39.744Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'aa815d90-456d-4939-9130-77f1f14aaa0c',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '40'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 201 },
+    responseTime: 128
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:49:44.907Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'b703e846-5475-4dd4-9063-749619c487db',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '40'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 201 },
+    responseTime: 123
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:50:44.876Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '4f0f4fcd-a0b1-4eb9-8681-2ee4c34f011f',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '40'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 201 },
+    responseTime: 124
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:52:35.613Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '30656b78-6d42-4f7d-a65b-7c02881ddc1f',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '40'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 201 },
+    responseTime: 126
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:54:25.204Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '8f42c8a8-94d9-40dc-a002-7c84a0c8f61e',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '40'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 201 },
+    responseTime: 144
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T11:55:36.617Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '5fff9850-3211-478f-bd3d-f5b20cb602a7',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '40'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 125
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-09-18T12:27:47.526Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register?email=adam&password=test',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.32.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'ae76ceed-dee4-49e5-9f9a-dc490645cce9',
+        host: 'localhost:8080',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-type': 'application/x-www-form-urlencoded',
+        'content-length': '40'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register?email=adam&password=test',
+      query: { email: 'adam', password: 'test' }
+    },
+    res: { statusCode: 201 },
+    responseTime: 125
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register?email=adam&password=test',
+  timestamp: '2023-09-18T12:32:09.375Z'
+}

@@ -1,10 +1,11 @@
+require('dotenv').config();
 const jwt = require('jsonwebtoken');
 
 // TODO Implementation oAuth
 
-const config = process.env;
+const config = process.env.JWT_SECRET;
 
-const verifyToken = (req, res, next) => {
+const authToken = (req, res, next) => {
 	const token =
 		req.body.token || req.query.token || req.headers['x-access-token'];
 
@@ -20,4 +21,4 @@ const verifyToken = (req, res, next) => {
 	return next();
 };
 
-module.exports = verifyToken;
+module.exports = authToken;

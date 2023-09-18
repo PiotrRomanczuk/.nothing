@@ -1,16 +1,20 @@
 require('dotenv').config();
 
 const express = require('express');
-const cookieParser = require('cookie-parser');
 const app = express();
+
+const sqlite3 = require('sqlite3').verbose();
+const db = new sqlite3.Database('./database/main.db');
+const closeDatabase = require('./database/closeDatabase');
 
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
+const cookieParser = require('cookie-parser');
 
 const expressWinston = require('express-winston');
 const winstonLoggerConfig = require('./config/winstonLoggerConfig');
 
-const auth = require('./middleware/auth');
+const authToken = require('./middleware/authToken');
 
 const notesRouter = require('./routes/notesRoutes');
 const authRouter = require('./routes/authRoutes');
@@ -48,6 +52,7 @@ const startServer = async () => {
 	try {
 		app.listen(PORT, () => {
 			console.log(`listening on port ${PORT}`);
+			closeDatabase();
 		});
 	} catch (err) {
 		console.log(`Error: ${err}`);

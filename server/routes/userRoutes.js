@@ -4,8 +4,8 @@ const bcrypt = require('bcryptjs');
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 
-const register = require('../controllers/users/SQL/registerSQL');
-const getUser = require('../controllers/users/SQL/getUser');
+const register = require('../controllers/users/register');
+const getUser = require('../controllers/users/getUser');
 
 const {
 	validatePassword,
