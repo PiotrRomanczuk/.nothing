@@ -10,11 +10,10 @@ const login = async (req, res) => {
 		if (!(email && password)) {
 			return res
 				.status(400)
-				.send('All inputs are required - email && password');
+				.send({ error: 'All inputs are required - email && password' });
 		}
 
 		const pathDB = path.join(__dirname, '../../../testDB1.db');
-		console.log(pathDB);
 
 		const db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {

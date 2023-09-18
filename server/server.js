@@ -26,6 +26,7 @@ app.use(expressWinston.logger(winstonLoggerConfig));
 
 app.use('/notes/', notesRouter);
 app.use('/user/', userRouter);
+app.use('/user/', authRouter);
 
 app.get('/welcome', (req, res) => {
 	res.status(200).send('Welcome 🙌 ');

@@ -33,7 +33,6 @@ const register = async (req, res) => {
 		password = encryptedPassword;
 
 		const pathDB = path.join(__dirname, '../../../testDB1.db');
-		console.log(pathDB);
 
 		let db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {
@@ -60,7 +59,6 @@ const register = async (req, res) => {
 			INSERT INTO users (email, password)
 			VALUES (?, ?)
 		`;
-					console.log({ email, password });
 
 					const checkUserQuery = 'SELECT id FROM users WHERE email = ?';
 
