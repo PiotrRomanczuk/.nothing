@@ -39,10 +39,11 @@ const register = async (req, res) => {
 				console.error(err.message);
 				return; // This will exit the function when an error occurs
 			} else {
-				console.log('Connected to the database.');
+				console.log('Starting registering process on database');
 				// Continue with database operations here
 			}
 		});
+
 		db.serialize(() => {
 			const CREATE_TABLE = `
 				CREATE TABLE IF NOT EXISTS users (

@@ -8,7 +8,6 @@ const bcrypt = require('bcryptjs');
 
 const login = async (req, res) => {
 	try {
-		console.log(process.env.JWT_SECRET);
 		const { email, password } = req.body;
 
 		if (!(email && password)) {
@@ -23,7 +22,7 @@ const login = async (req, res) => {
 			if (err) {
 				console.error(err.message);
 			} else {
-				console.log('Connected to the database.');
+				console.log('Starting login process on database ');
 			}
 		});
 
@@ -47,7 +46,7 @@ const login = async (req, res) => {
 			if (!isPasswordValid) {
 				// Invalid password
 				console.error('Invalid password');
-				return res.status(400).json({ message: 'Invalid password.' });
+				return res.status(400).json({ error: 'Invalid password.' });
 			}
 
 			// Create a JWT token
