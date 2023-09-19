@@ -9,7 +9,7 @@ const bcrypt = require('bcryptjs');
 const {
 	validatePassword,
 	validateEmail,
-} = require('../../../utils/email&passValidate');
+} = require('../../utils/email&passValidate');
 
 const register = async (req, res) => {
 	try {
@@ -32,13 +32,15 @@ const register = async (req, res) => {
 
 		password = encryptedPassword;
 
-		const pathDB = path.join(__dirname, '../../../testDB1.db');
+		const pathDB = path.join(__dirname, '../../database/main.db');
 
 		let db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {
 				console.error(err.message);
+				return; // This will exit the function when an error occurs
 			} else {
-				console.log('Connected to the database.');
+				console.log('Starting registering process on database');
+				// Continue with database operations here
 			}
 		});
 
@@ -48,8 +50,9 @@ const register = async (req, res) => {
 				id INTEGER PRIMARY KEY AUTOINCREMENT,
 				first_name TEXT,
 				email TEXT NOT NULL,
-				password TEXT NOT NULL
-        )`;
+				password TEXT NOT NULL,
+				isAdmin BOOLEAN NOT NULL DEFAULT 0
+			);`;
 
 			db.run(CREATE_TABLE, (err) => {
 				if (err) {

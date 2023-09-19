@@ -1,6 +1,9 @@
 require('dotenv').config();
+
 const path = require('path');
 const sqlite3 = require('sqlite3').verbose();
+
+const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 
 const login = async (req, res) => {
@@ -13,13 +16,13 @@ const login = async (req, res) => {
 				.send({ error: 'All inputs are required - email && password' });
 		}
 
-		const pathDB = path.join(__dirname, '../../../testDB1.db');
+		const pathDB = path.join(__dirname, '../../database/main.db');
 
 		const db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {
 				console.error(err.message);
 			} else {
-				console.log('Connected to the database.');
+				console.log('Starting login process on database ');
 			}
 		});
 
@@ -43,12 +46,22 @@ const login = async (req, res) => {
 			if (!isPasswordValid) {
 				// Invalid password
 				console.error('Invalid password');
-				return res.status(400).json({ message: 'Invalid password.' });
+				return res.status(400).json({ error: 'Invalid password.' });
 			}
 
+			// Create a JWT token
+
+			const token = jwt.sign(
+				{ userId: row.id, email: email },
+				process.env.JWT_SECRET,
+				{
+					expiresIn: '1h', // Set the token expiration time as needed
+				}
+			);
+
 			// Successful login
+			res.status(200).json({ message: 'Success', token });
 			console.log('Login successful');
-			res.status(200).json({ message: 'Success' });
 		});
 	} catch (err) {
 		console.error(err);

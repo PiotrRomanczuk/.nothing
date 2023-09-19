@@ -7,7 +7,7 @@
 		"server": "nodemon ./server/server.js",
 		"serverTest": "cd server && ",
 		"client": "cd client && npm run dev",
-		"testServer": "mocha ./server/tests/**/*.test.js --exit"
+		"testServer": "cd server && mocha ./tests/**/*.test.js --exit"
 	},
 	"repository": {
 		"type": "git",

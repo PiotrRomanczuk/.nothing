@@ -8,7 +8,7 @@ const {
 	updateNoteById,
 	deleteNoteById,
 	deleteAllNotes,
-} = require('../controllers/notes/notesCRUDMongoDB');
+} = require('../controllers/notes/AllNotes');
 
 // Define routes for notes
 router.post('/', createNote);
