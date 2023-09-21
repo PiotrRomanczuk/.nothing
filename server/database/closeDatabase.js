@@ -14,14 +14,14 @@ const closeDatabase = (exitCode = 0) => {
 	// Handle uncaught exceptions
 	process.on('uncaughtException', (err) => {
 		console.error(err);
-		console.log('\nDatabase is closed on uncaught exception');
+		console.log('Database is closed on uncaught exception');
 		db.close(() => process.exit(1)); // Exit with an error code
 	});
 
 	// Handle Ctrl+C gracefully
 	process.on('SIGINT', () => {
 		if (!sigintHandled) {
-			console.log('\nDatabase is closed on SIGINT');
+			console.log('Database is closed on SIGINT');
 			db.close(() => {
 				sigintHandled = true;
 				process.exit(0); // Exit without an error code
@@ -32,7 +32,7 @@ const closeDatabase = (exitCode = 0) => {
 	// Handle application exit
 	process.on('exit', () => {
 		if (!sigintHandled) {
-			console.log('\nDatabase is closed');
+			console.log('Database is closed');
 			db.close(() => process.exit(exitCode));
 		}
 	});

@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const path = require('path');
-const sqlite3 = require('sqlite3').verbose();
+const openDatabase = require('../../database/openDatabase');
 
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
@@ -18,13 +18,7 @@ const login = async (req, res) => {
 
 		const pathDB = path.join(__dirname, '../../database/main.db');
 
-		const db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
-			if (err) {
-				console.error(err.message);
-			} else {
-				console.log('Starting login process on database ');
-			}
-		});
+		const db = openDatabase(pathDB, `Opening database on logging in`);
 
 		const checkUserQuery = 'SELECT id, password FROM users WHERE email = ?';
 
