@@ -45,29 +45,29 @@ describe('User Registration', () => {
 			3000;
 	});
 
-	// it('should return a 400 Bad Request if email is invalid', (done) => {
-	// 	chai
-	// 		.request(app)
-	// 		.post('/user/register/')
-	// 		.send({ email: 'invalid_email', password: 'testpassword' })
-	// 		.end((err, res) => {
-	// 			expect(res).to.have.status(400);
-	// 			expect(res.text).to.equal('Invalid email address');
-	// 			done();
-	// 		});
-	// });
+	it('should return a 400 Bad Request if email is invalid', (done) => {
+		chai
+			.request(app)
+			.post('/user/register/')
+			.send({ email: 'invalid_email', password: 'testpassword' })
+			.end((err, res) => {
+				expect(res).to.have.status(400);
+				expect(res.text).to.equal('Invalid email address');
+				done();
+			});
+	});
 
-	// it('should return a 409 Conflict if the user already exists', (done) => {
-	// 	chai
-	// 		.request(app)
-	// 		.post('/user/register/')
-	// 		.send(userCredentials) // Attempt to create the same user again
-	// 		.end((err, res) => {
-	// 			expect(res).to.have.status(409);
-	// 			expect(res.body)
-	// 				.to.have.property('message')
-	// 				.to.equal('User with this email already exists.');
-	// 			done();
-	// 		});
-	// });
+	it('should return a 409 Conflict if the user already exists', (done) => {
+		chai
+			.request(app)
+			.post('/user/register/')
+			.send(userCredentials) // Attempt to create the same user again
+			.end((err, res) => {
+				expect(res).to.have.status(409);
+				expect(res.body)
+					.to.have.property('message')
+					.to.equal('User with this email already exists.');
+				done();
+			});
+	});
 });

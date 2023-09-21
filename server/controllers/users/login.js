@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
 const openDatabase = require('../../database/openDatabase');
 
@@ -18,7 +19,16 @@ const login = async (req, res) => {
 
 		const pathDB = path.join(__dirname, '../../database/main.db');
 
-		const db = openDatabase(pathDB, `Opening database on logging in`);
+		// const db = openDatabase(pathDB, `Opening database on logging in`);
+		let db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
+			if (err) {
+				console.error(err.message);
+				return; // This will exit the function when an error occurs
+			} else {
+				console.log('Starting login process on database');
+				// Continue with database operations here
+			}
+		});
 
 		const checkUserQuery = 'SELECT id, password FROM users WHERE email = ?';
 

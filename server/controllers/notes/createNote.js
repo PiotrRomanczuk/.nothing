@@ -1,7 +1,12 @@
 const sqlite3 = require('sqlite3').verbose();
+const path = require('path');
+
+const openDatabase = require('../../database/openDatabase');
 
 // Create a new SQLite database or open an existing one
-const db = new sqlite3.Database('notes.db');
+const pathDB = path.join(__dirname, '../../database/main.db');
+
+const db = new sqlite3.Database(pathDB);
 
 // Create a table for notes if it doesn't exist
 db.serialize(() => {
