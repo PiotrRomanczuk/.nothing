@@ -1,5 +1,5 @@
 const createNote = require('./createNote');
-const getNoteById = require('./getNoteById');
+const getNoteById = require('./getNoteByID');
 const getAllNotes = require('./getAllNotes');
 const updateNoteById = require('./updateNoteById');
 const deleteNoteById = require('./deleteNoteById');
