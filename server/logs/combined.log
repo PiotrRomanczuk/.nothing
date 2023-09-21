@@ -18066,3 +18066,316 @@
   message: 'HTTP GET /welcome',
   timestamp: '2023-09-21T15:48:08.828Z'
 }
+{
+  meta: {
+    req: {
+      url: '/',
+      headers: {
+        host: '127.0.0.1:60500',
+        'accept-encoding': 'gzip, deflate',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /',
+  timestamp: '2023-09-21T15:55:32.204Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user',
+      headers: {
+        host: '127.0.0.1:60502',
+        'accept-encoding': 'gzip, deflate',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user',
+  timestamp: '2023-09-21T15:55:32.213Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/1',
+      headers: {
+        host: '127.0.0.1:60504',
+        'accept-encoding': 'gzip, deflate',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/1',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user/1',
+  timestamp: '2023-09-21T15:55:32.218Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/999',
+      headers: {
+        host: '127.0.0.1:60506',
+        'accept-encoding': 'gzip, deflate',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/user/999',
+      query: {}
+    },
+    res: { statusCode: 404 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /user/999',
+  timestamp: '2023-09-21T15:55:32.222Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: '127.0.0.1:60508',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '2',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-09-21T15:55:32.236Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login/',
+      headers: {
+        host: '127.0.0.1:60510',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '48',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login/',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 121
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login/',
+  timestamp: '2023-09-21T15:55:32.362Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: '127.0.0.1:60512',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '60',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-09-21T15:55:32.365Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: '127.0.0.1:60514',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '51',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 112
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-09-21T15:55:32.480Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/login',
+      headers: {
+        host: '127.0.0.1:60516',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '48',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/login',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 113
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/login',
+  timestamp: '2023-09-21T15:55:32.597Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        host: '127.0.0.1:60518',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 113
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-21T15:55:32.713Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        host: '127.0.0.1:60520',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '27',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-21T15:55:32.717Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        host: '127.0.0.1:60522',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '51',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 400 },
+    responseTime: 0
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-21T15:55:32.720Z'
+}
+{
+  meta: {
+    req: {
+      url: '/user/register/',
+      headers: {
+        host: '127.0.0.1:60524',
+        'accept-encoding': 'gzip, deflate',
+        'content-type': 'application/json',
+        'content-length': '58',
+        connection: 'close'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/user/register/',
+      query: {}
+    },
+    res: { statusCode: 409 },
+    responseTime: 112
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP POST /user/register/',
+  timestamp: '2023-09-21T15:55:32.835Z'
+}
+{
+  meta: {
+    req: {
+      url: '/welcome',
+      headers: {
+        host: '127.0.0.1:60526',
+        'accept-encoding': 'gzip, deflate',
+        authorization: 'Bearer yourAccessToken',
+        connection: 'close'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/welcome',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1
+  },
+  level: '\x1B[32minfo\x1B[39m',
+  message: 'HTTP GET /welcome',
+  timestamp: '2023-09-21T15:55:32.840Z'
+}

@@ -27,7 +27,7 @@ app.use(express.json({ limit: '30mb', extended: true }));
 app.use(cors(corsOptions));
 app.use(expressWinston.logger(winstonLoggerConfig));
 
-app.use('/notes/', notesRouter);
+// app.use('/notes/', notesRouter);
 app.use('/user/', userRouter);
 
 app.get('/welcome', (req, res) => {
