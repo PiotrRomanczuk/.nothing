@@ -59,4 +59,17 @@ describe('Login API', () => {
 				done();
 			});
 	});
+
+	it('should return success for valid credentials', (done) => {
+		chai
+			.request(app)
+			.post('/user/login')
+			.send({ email: 'test@test.pl', password: 'QWErty123!' })
+			.end((err, res) => {
+				expect(res).to.have.status(200);
+				expect(res.body).to.have.property('message').eql('Success');
+
+				done();
+			});
+	});
 });

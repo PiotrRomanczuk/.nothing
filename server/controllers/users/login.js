@@ -1,8 +1,7 @@
 require('dotenv').config();
 
-const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
-const openDatabase = require('../../database/openDatabase');
+const sqlite3 = require('sqlite3').verbose();
 
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
