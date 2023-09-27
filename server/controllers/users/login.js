@@ -18,11 +18,13 @@ const login = async (req, res) => {
 
 		const pathDB = path.join(__dirname, '../../database/main.db');
 
-		const db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
+		let db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {
 				console.error(err.message);
+				return; // This will exit the function when an error occurs
 			} else {
-				console.log('Starting login process on database ');
+				console.log('Starting login process on database');
+				// Continue with database operations here
 			}
 		});
 

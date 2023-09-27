@@ -29,17 +29,20 @@ describe('User Registration', () => {
 	});
 
 	it('should return a 400 Bad Request if email is missing', (done) => {
-		chai
-			.request(app)
-			.post('/user/register/')
-			.send({ password: 'testpassword' })
-			.end((err, res) => {
-				expect(res).to.have.status(400);
-				expect(res.text).to.equal(
-					'All inputs are required - email && password'
-				);
-				done();
-			});
+		setTimeout(() => {
+			chai
+				.request(app)
+				.post('/user/register/')
+				.send({ password: 'testpassword' })
+				.end((err, res) => {
+					expect(res).to.have.status(400);
+					expect(res.text).to.equal(
+						'All inputs are required - email && password'
+					);
+					done();
+				});
+		}),
+			3000;
 	});
 
 	it('should return a 400 Bad Request if email is invalid', (done) => {
@@ -67,6 +70,4 @@ describe('User Registration', () => {
 				done();
 			});
 	});
-
-	// Add more test cases for password validation, etc.
 });
