@@ -1,62 +1,66 @@
-// const chai = require('chai');
-// const chaiHttp = require('chai-http');
-// const sqlite3 = require('sqlite3').verbose();
-// const { app } = require('../../server'); // Replace with the actual path to your Express app
-// const expect = chai.expect;
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const { expect } = chai;
+const sqlite3 = require('sqlite3').verbose();
+const path = require('path');
+const { app } = require('../../server'); // Import your Express app or module where createNote is defined
 
-// chai.use(chaiHttp);
+chai.use(chaiHttp);
 
-// describe('createNote', () => {
-// 	let db;
+// Define the path to your testing database
+const testDBPath = path.join(__dirname, '../../database/main.db');
 
-// 	// Before running tests, open the database connection
-// 	before((done) => {
-// 		db = new sqlite3.Database(':memory:');
-// 		// Replace ':memory:' with the actual database file path if necessary
+describe('createNote', () => {
+	let db;
 
-// 		// Create the notes table
-// 		db.run(
-// 			`CREATE TABLE IF NOT EXISTS notes (
-//         id INTEGER PRIMARY KEY AUTOINCREMENT,
-//         idUser INTEGER,
-//         title TEXT,
-//         description TEXT)`
-// 		);
+	before((done) => {
+		// Create a new SQLite database for testing
+		db = new sqlite3.Database(testDBPath, () => {
+			// Run your database migration or setup scripts here
+			// For example, create the 'notes' table like in your main code
 
-// 		done();
-// 	});
+			db.run(
+				`CREATE TABLE IF NOT EXISTS notes (
+          id INTEGER PRIMARY KEY AUTOINCREMENT,
+          idUser INTEGER,
+          title TEXT,
+          description TEXT
+        )`,
+				() => {
+					done();
+				}
+			);
+		});
+	});
 
-// 	// After running tests, close the database connection
-// 	after((done) => {
-// 		db.close((err) => {
-// 			if (err) {
-// 				console.error('Error closing the database:', err);
-// 			}
-// 			done();
-// 		});
-// 	});
+	after((done) => {
+		// Close the testing database connection after tests are done
+		db.close(() => {
+			done();
+		});
+	});
 
-// 	// Test the createNote function
-// 	it('should create a new note', (done) => {
-// 		const newNote = {
-// 			idUser: 1,
-// 			title: 'Test Note',
-// 			description: 'This is a test note.',
-// 		};
+	// Write a test case for createNote
+	it('should create a new note', (done) => {
+		const newNote = {
+			idUser: 1, // Change as needed
+			title: 'Test Note',
+			description: 'This is a test note.',
+		};
 
-// 		chai
-// 			.request(app)
-// 			.post('/create-note') // Replace with the actual route for creating a note
-// 			.send(newNote)
-// 			.end((err, res) => {
-// 				expect(res).to.have.status(201);
-// 				expect(res.body).to.be.an('object');
-// 				expect(res.body).to.have.property('id');
-// 				expect(res.body.id).to.be.a('number');
-// 				expect(res.body).to.have.property('idUser', newNote.idUser);
-// 				expect(res.body).to.have.property('title', newNote.title);
-// 				expect(res.body).to.have.property('description', newNote.description);
-// 				done();
-// 			});
-// 	});
-// });
+		chai
+			.request(app) // Replace with your Express app
+			.post('/notes') // Replace with your createNote route
+			.send(newNote)
+			.end((err, res) => {
+				expect(err).to.be.null;
+				expect(res).to.have.status(201);
+				expect(res.body).to.have.property('id');
+				expect(res.body.idUser).to.equal(newNote.idUser);
+				expect(res.body.title).to.equal(newNote.title);
+				expect(res.body.description).to.equal(newNote.description);
+
+				done();
+			});
+	}).timeout(5000);
+});

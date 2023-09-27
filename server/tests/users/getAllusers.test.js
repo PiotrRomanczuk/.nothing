@@ -19,18 +19,4 @@ describe('getAllUsers', () => {
 				done();
 			});
 	});
-
-	// it('should handle errors gracefully', (done) => {
-	// 	chai
-	// 		.request(app) // Replace with your server URL
-	// 		.get('/user1') // Replace with the actual endpoint URL
-	// 		.end((err, res) => {
-	// 			expect(err).to.be.null;
-	// 			expect(res).to.have.status(500);
-	// 			expect(res.body).to.have.property('error');
-	// 			// You can add more specific error handling assertions here
-
-	// 			done();
-	// 		});
-	// });
 });

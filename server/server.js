@@ -3,9 +3,12 @@ require('dotenv').config();
 const express = require('express');
 const app = express();
 
+const path = require('path');
+
 const sqlite3 = require('sqlite3').verbose();
 const db = new sqlite3.Database('./database/main.db');
-const closeDatabase = require('./database/closeDatabase');
+// const closeDatabase = require('./database/closeDatabase');
+const openDatabase = require('./database/openDatabase');
 
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
@@ -14,7 +17,7 @@ const cookieParser = require('cookie-parser');
 const expressWinston = require('express-winston');
 const winstonLoggerConfig = require('./config/winstonLoggerConfig');
 
-const authToken = require('./middleware/authToken');
+// const authToken = require('./middleware/authToken');
 
 const notesRouter = require('./routes/notesRoutes');
 const userRouter = require('./routes/userRoutes');
@@ -27,8 +30,9 @@ app.use(express.json({ limit: '30mb', extended: true }));
 app.use(cors(corsOptions));
 app.use(expressWinston.logger(winstonLoggerConfig));
 
-app.use('/notes/', notesRouter);
+// app.use('/notes/', notesRouter);
 app.use('/user/', userRouter);
+app.use('/notes/', notesRouter);
 
 app.get('/welcome', (req, res) => {
 	res.status(200).send('Welcome 🙌 ');
@@ -46,11 +50,13 @@ app.all('*', (req, res) => {
 
 // TODO SQLite database implementation for users and tasks
 
+const pathDB = path.join(__dirname, './database/main.db');
+
 const startServer = async () => {
 	try {
 		app.listen(PORT, () => {
 			console.log(`listening on port ${PORT}`);
-			closeDatabase();
+			openDatabase(pathDB, `Connected to the ${pathDB}`);
 		});
 	} catch (err) {
 		console.log(`Error: ${err}`);

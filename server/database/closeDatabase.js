@@ -1,5 +1,9 @@
 const sqlite3 = require('sqlite3').verbose();
-const db = new sqlite3.Database('notes.db');
+
+const path = require('path');
+const pathDB = path.join(__dirname, '../../database/main.db');
+
+let db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE);
 
 let isClosed = false;
 let sigintHandled = false;

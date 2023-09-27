@@ -18,7 +18,6 @@ const login = async (req, res) => {
 
 		const pathDB = path.join(__dirname, '../../database/main.db');
 
-		// const db = openDatabase(pathDB, `Opening database on logging in`);
 		let db = new sqlite3.Database(pathDB, sqlite3.OPEN_READWRITE, (err) => {
 			if (err) {
 				console.error(err.message);
